@@ -1,18 +1,18 @@
 //
-//  QHRoostTabBarController.m
+//  QHRootTabBarController.m
 //  QHProject
 //
-//  Created by Chie Li on 16/4/9.
+//  Created by Chie Li on 16/4/18.
 //  Copyright © 2016年 ChieLi. All rights reserved.
 //
 
-#import "QHRoostTabBarController.h"
+#import "QHRootTabBarController.h"
 
-@interface QHRoostTabBarController ()
+@interface QHRootTabBarController ()
 
 @end
 
-@implementation QHRoostTabBarController
+@implementation QHRootTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

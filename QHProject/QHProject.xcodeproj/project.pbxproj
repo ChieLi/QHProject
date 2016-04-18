@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */; };
-		6054BFAA1CB94DEE002A784F /* QHRoostTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6054BFA91CB94DEE002A784F /* QHRoostTabBarController.m */; };
+		603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */; };
 		60CD9F661C9EA56800EC354F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F651C9EA56800EC354F /* main.m */; };
 		60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F681C9EA56800EC354F /* AppDelegate.m */; };
-		60CD9F6C1C9EA56800EC354F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F6B1C9EA56800EC354F /* ViewController.m */; };
 		60CD9F6F1C9EA56800EC354F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F6D1C9EA56800EC354F /* Main.storyboard */; };
 		60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */; };
 		60CD9F741C9EA56800EC354F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F731C9EA56800EC354F /* Assets.xcassets */; };
@@ -22,14 +21,12 @@
 /* Begin PBXFileReference section */
 		6001A6D51CB4BC22000F2BB3 /* QHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseViewController.h; sourceTree = "<group>"; };
 		6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseViewController.m; sourceTree = "<group>"; };
-		6054BFA81CB94DEE002A784F /* QHRoostTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRoostTabBarController.h; sourceTree = "<group>"; };
-		6054BFA91CB94DEE002A784F /* QHRoostTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRoostTabBarController.m; sourceTree = "<group>"; };
+		603975F91CC512C800E9DC25 /* QHRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRootTabBarController.h; sourceTree = "<group>"; };
+		603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRootTabBarController.m; sourceTree = "<group>"; };
 		60CD9F611C9EA56800EC354F /* QHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CD9F651C9EA56800EC354F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60CD9F681C9EA56800EC354F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60CD9F6A1C9EA56800EC354F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60CD9F6B1C9EA56800EC354F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60CD9F6E1C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60CD9F711C9EA56800EC354F /* QHProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QHProject.xcdatamodel; sourceTree = "<group>"; };
 		60CD9F731C9EA56800EC354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,8 +63,8 @@
 			children = (
 				6001A6D51CB4BC22000F2BB3 /* QHBaseViewController.h */,
 				6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */,
-				6054BFA81CB94DEE002A784F /* QHRoostTabBarController.h */,
-				6054BFA91CB94DEE002A784F /* QHRoostTabBarController.m */,
+				603975F91CC512C800E9DC25 /* QHRootTabBarController.h */,
+				603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -102,8 +99,6 @@
 			children = (
 				60CD9F671C9EA56800EC354F /* AppDelegate.h */,
 				60CD9F681C9EA56800EC354F /* AppDelegate.m */,
-				60CD9F6A1C9EA56800EC354F /* ViewController.h */,
-				60CD9F6B1C9EA56800EC354F /* ViewController.m */,
 				60AD78281CA9428400140298 /* ViewController */,
 				60F02B801CA938CB0037CE77 /* Common */,
 				60CD9F6D1C9EA56800EC354F /* Main.storyboard */,
@@ -269,8 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6054BFAA1CB94DEE002A784F /* QHRoostTabBarController.m in Sources */,
-				60CD9F6C1C9EA56800EC354F /* ViewController.m in Sources */,
+				603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */,
 				6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */,
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
 				60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */,
