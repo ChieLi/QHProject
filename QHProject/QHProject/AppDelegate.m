@@ -50,6 +50,13 @@
     [self saveContext];
 }
 
+#pragma mark - private method
+
+- (void)setUpLeanClound
+{
+    [AVOSCloud setApplicationId:<#(NSString *)#> clientKey:<#(NSString *)#>]
+}
+
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext = _managedObjectContext;
