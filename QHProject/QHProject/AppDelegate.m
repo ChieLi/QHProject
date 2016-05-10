@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "QHThirdPartyKey.h"
 #import "QHRootTabBarController.h"
 
 @interface AppDelegate ()
@@ -18,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setUpLeanClound];
     
     QHRootTabBarController *rootTabBarController = [[QHRootTabBarController alloc] init];
     
@@ -54,7 +57,7 @@
 
 - (void)setUpLeanClound
 {
-    [AVOSCloud setApplicationId:<#(NSString *)#> clientKey:<#(NSString *)#>]
+    [AVOSCloud setApplicationId:LEAN_CLOUND_APP_ID clientKey:LEAN_CLOUND_APP_KEY];
 }
 
 #pragma mark - Core Data stack

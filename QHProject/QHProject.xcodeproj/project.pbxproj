@@ -29,10 +29,11 @@
 		603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLoginViewController.m; sourceTree = "<group>"; };
 		603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
 		603976011CC52AC900E9DC25 /* QHProjectPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHProjectPrefixHeader.pch; sourceTree = "<group>"; };
+		608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHThirdPartyKey.h; sourceTree = "<group>"; };
 		60CD9F611C9EA56800EC354F /* QHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CD9F651C9EA56800EC354F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		60CD9F681C9EA56800EC354F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		60CD9F681C9EA56800EC354F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		60CD9F6E1C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60CD9F711C9EA56800EC354F /* QHProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QHProject.xcdatamodel; sourceTree = "<group>"; };
 		60CD9F731C9EA56800EC354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,8 +110,6 @@
 				60F02B801CA938CB0037CE77 /* Common */,
 				60CD9F641C9EA56800EC354F /* Supporting Files */,
 				60AD78281CA9428400140298 /* ViewController */,
-				60CD9F671C9EA56800EC354F /* AppDelegate.h */,
-				60CD9F681C9EA56800EC354F /* AppDelegate.m */,
 				60CD9F731C9EA56800EC354F /* Assets.xcassets */,
 				60CD9F781C9EA56800EC354F /* Info.plist */,
 				60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */,
@@ -123,6 +122,8 @@
 		60CD9F641C9EA56800EC354F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60CD9F671C9EA56800EC354F /* AppDelegate.h */,
+				60CD9F681C9EA56800EC354F /* AppDelegate.m */,
 				603976011CC52AC900E9DC25 /* QHProjectPrefixHeader.pch */,
 				60CD9F651C9EA56800EC354F /* main.m */,
 			);
@@ -132,6 +133,7 @@
 		60F02B801CA938CB0037CE77 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
