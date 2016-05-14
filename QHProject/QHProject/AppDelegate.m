@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "QHThirdPartyKey.h"
+#import "QHRootTabBarController.h"
+#import "QHLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setUpLeanClound];
+    
+    if (![QHUserManager currentUser]) {
+
+        QHLoginViewController *loginVC = [[QHLoginViewController alloc] init];
+        UINavigationController *loginNC = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        self.window.rootViewController = loginNC;
+    } else {
+        
+        QHRootTabBarController *rootTabBarController = [[QHRootTabBarController alloc] init];
+        
+        self.window.rootViewController = rootTabBarController;
+    }
+    
     return YES;
 }
 
@@ -42,6 +60,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+#pragma mark - private method
+
+- (void)setUpLeanClound
+{
+    [AVOSCloud setApplicationId:LEAN_CLOUND_APP_ID clientKey:LEAN_CLOUND_APP_KEY];
 }
 
 #pragma mark - Core Data stack

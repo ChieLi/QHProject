@@ -7,27 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */; };
+		603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */; };
+		603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */; };
+		603976001CC51D6200E9DC25 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */; };
+		606B00461CE479290009099A /* QHUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00451CE479290009099A /* QHUserModel.m */; };
+		606B004F1CE487E60009099A /* QHUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B004E1CE487E60009099A /* QHUserManager.m */; };
+		606B00551CE4CF580009099A /* QHAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00541CE4CF580009099A /* QHAlertViewManager.m */; };
+		606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00571CE4DF130009099A /* QHRegisterViewController.m */; };
+		606B005A1CE4DF130009099A /* QHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606B00581CE4DF130009099A /* QHRegisterViewController.xib */; };
+		606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00621CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m */; };
+		606B00651CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606B00631CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib */; };
+		60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */; };
 		60CD9F661C9EA56800EC354F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F651C9EA56800EC354F /* main.m */; };
 		60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F681C9EA56800EC354F /* AppDelegate.m */; };
-		60CD9F6C1C9EA56800EC354F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F6B1C9EA56800EC354F /* ViewController.m */; };
 		60CD9F6F1C9EA56800EC354F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F6D1C9EA56800EC354F /* Main.storyboard */; };
 		60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */; };
 		60CD9F741C9EA56800EC354F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F731C9EA56800EC354F /* Assets.xcassets */; };
 		60CD9F771C9EA56800EC354F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */; };
+		F5CA835FF540A29F51B21184 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA65707B552B41AFCCF4066D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6001A6D51CB4BC22000F2BB3 /* QHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseViewController.h; sourceTree = "<group>"; };
+		6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseViewController.m; sourceTree = "<group>"; };
+		603975F91CC512C800E9DC25 /* QHRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRootTabBarController.h; sourceTree = "<group>"; };
+		603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRootTabBarController.m; sourceTree = "<group>"; };
+		603975FC1CC51D6200E9DC25 /* QHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLoginViewController.h; sourceTree = "<group>"; };
+		603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLoginViewController.m; sourceTree = "<group>"; };
+		603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
+		603976011CC52AC900E9DC25 /* QHProjectPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHProjectPrefixHeader.pch; sourceTree = "<group>"; };
+		606B00441CE479290009099A /* QHUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUserModel.h; sourceTree = "<group>"; };
+		606B00451CE479290009099A /* QHUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUserModel.m; sourceTree = "<group>"; };
+		606B004B1CE47CB50009099A /* QHCommonBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHCommonBlock.h; sourceTree = "<group>"; };
+		606B004D1CE487E60009099A /* QHUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUserManager.h; sourceTree = "<group>"; };
+		606B004E1CE487E60009099A /* QHUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUserManager.m; sourceTree = "<group>"; };
+		606B00531CE4CF580009099A /* QHAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHAlertViewManager.h; sourceTree = "<group>"; };
+		606B00541CE4CF580009099A /* QHAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHAlertViewManager.m; sourceTree = "<group>"; };
+		606B00561CE4DF130009099A /* QHRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRegisterViewController.h; sourceTree = "<group>"; };
+		606B00571CE4DF130009099A /* QHRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRegisterViewController.m; sourceTree = "<group>"; };
+		606B00581CE4DF130009099A /* QHRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHRegisterViewController.xib; sourceTree = "<group>"; };
+		606B00611CE5C7FF0009099A /* QHChooseRegisterTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QHChooseRegisterTypeViewController.h; path = Login/QHChooseRegisterTypeViewController.h; sourceTree = "<group>"; };
+		606B00621CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QHChooseRegisterTypeViewController.m; path = Login/QHChooseRegisterTypeViewController.m; sourceTree = "<group>"; };
+		606B00631CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QHChooseRegisterTypeViewController.xib; path = Login/QHChooseRegisterTypeViewController.xib; sourceTree = "<group>"; };
+		608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHThirdPartyKey.h; sourceTree = "<group>"; };
+		60C849F71CE6EAEF00D6569C /* QHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseTableViewController.h; sourceTree = "<group>"; };
+		60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseTableViewController.m; sourceTree = "<group>"; };
 		60CD9F611C9EA56800EC354F /* QHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CD9F651C9EA56800EC354F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		60CD9F681C9EA56800EC354F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60CD9F6A1C9EA56800EC354F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60CD9F6B1C9EA56800EC354F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		60CD9F681C9EA56800EC354F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		60CD9F6E1C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60CD9F711C9EA56800EC354F /* QHProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QHProject.xcdatamodel; sourceTree = "<group>"; };
 		60CD9F731C9EA56800EC354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60CD9F761C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60CD9F781C9EA56800EC354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4164E44331325240F3DD39E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA641530E0D7F290B397BD1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FA65707B552B41AFCCF4066D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +72,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CA835FF540A29F51B21184 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606B00401CE477690009099A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				606B00441CE479290009099A /* QHUserModel.h */,
+				606B00451CE479290009099A /* QHUserModel.m */,
+			);
+			name = Model;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		606B00471CE479BF0009099A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				606B004D1CE487E60009099A /* QHUserManager.h */,
+				606B004E1CE487E60009099A /* QHUserManager.m */,
+				606B00531CE4CF580009099A /* QHAlertViewManager.h */,
+				606B00541CE4CF580009099A /* QHAlertViewManager.m */,
+			);
+			name = Manager;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		606B004C1CE482110009099A /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				606B00561CE4DF130009099A /* QHRegisterViewController.h */,
+				606B00571CE4DF130009099A /* QHRegisterViewController.m */,
+				606B00581CE4DF130009099A /* QHRegisterViewController.xib */,
+			);
+			name = RegisterViewController;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		606B005B1CE5C70D0009099A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				606B00661CE5E36B0009099A /* ChooseRegisterTypeViewController */,
+				606B004C1CE482110009099A /* RegisterViewController */,
+				60AD782A1CA942EC00140298 /* LoginViewController */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		606B00661CE5E36B0009099A /* ChooseRegisterTypeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				606B00611CE5C7FF0009099A /* QHChooseRegisterTypeViewController.h */,
+				606B00621CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m */,
+				606B00631CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib */,
+			);
+			name = ChooseRegisterTypeViewController;
+			sourceTree = "<group>";
+		};
+		60AD78281CA9428400140298 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60C849F61CE6EAAB00D6569C /* Chat */,
+				60C849F51CE6EA6D00D6569C /* Home */,
+				606B005B1CE5C70D0009099A /* User */,
+				60AD78291CA942AA00140298 /* Base */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		60AD78291CA942AA00140298 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6001A6D51CB4BC22000F2BB3 /* QHBaseViewController.h */,
+				6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */,
+				603975F91CC512C800E9DC25 /* QHRootTabBarController.h */,
+				603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */,
+				60C849F71CE6EAEF00D6569C /* QHBaseTableViewController.h */,
+				60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		60AD782A1CA942EC00140298 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				603975FC1CC51D6200E9DC25 /* QHLoginViewController.h */,
+				603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */,
+				603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */,
+			);
+			name = LoginViewController;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		60C849F51CE6EA6D00D6569C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		60C849F61CE6EAAB00D6569C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		60CD9F581C9EA56800EC354F = {
 			isa = PBXGroup;
 			children = (
-				60CD9F631C9EA56800EC354F /* QHProject */,
+				A42C5542887975E4EB8C62D8 /* Frameworks */,
+				CB7F59D89EDD40C9BBFBE292 /* Pods */,
 				60CD9F621C9EA56800EC354F /* Products */,
+				60CD9F631C9EA56800EC354F /* QHProject */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +202,15 @@
 		60CD9F631C9EA56800EC354F /* QHProject */ = {
 			isa = PBXGroup;
 			children = (
-				60CD9F671C9EA56800EC354F /* AppDelegate.h */,
-				60CD9F681C9EA56800EC354F /* AppDelegate.m */,
-				60CD9F6A1C9EA56800EC354F /* ViewController.h */,
-				60CD9F6B1C9EA56800EC354F /* ViewController.m */,
-				60CD9F6D1C9EA56800EC354F /* Main.storyboard */,
-				60CD9F731C9EA56800EC354F /* Assets.xcassets */,
-				60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */,
-				60CD9F781C9EA56800EC354F /* Info.plist */,
-				60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */,
+				606B00401CE477690009099A /* Model */,
+				60F02B801CA938CB0037CE77 /* Common */,
 				60CD9F641C9EA56800EC354F /* Supporting Files */,
+				60AD78281CA9428400140298 /* ViewController */,
+				60CD9F731C9EA56800EC354F /* Assets.xcassets */,
+				60CD9F781C9EA56800EC354F /* Info.plist */,
+				60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */,
+				60CD9F6D1C9EA56800EC354F /* Main.storyboard */,
+				60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */,
 			);
 			path = QHProject;
 			sourceTree = "<group>";
@@ -77,9 +218,39 @@
 		60CD9F641C9EA56800EC354F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60CD9F671C9EA56800EC354F /* AppDelegate.h */,
+				60CD9F681C9EA56800EC354F /* AppDelegate.m */,
+				603976011CC52AC900E9DC25 /* QHProjectPrefixHeader.pch */,
 				60CD9F651C9EA56800EC354F /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F02B801CA938CB0037CE77 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				606B00471CE479BF0009099A /* Manager */,
+				608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */,
+				606B004B1CE47CB50009099A /* QHCommonBlock.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A42C5542887975E4EB8C62D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA65707B552B41AFCCF4066D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7F59D89EDD40C9BBFBE292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4164E44331325240F3DD39E /* Pods.debug.xcconfig */,
+				AA641530E0D7F290B397BD1A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CD9F7B1C9EA56800EC354F /* Build configuration list for PBXNativeTarget "QHProject" */;
 			buildPhases = (
+				77A48F315DEF6CDEB91182D3 /* Check Pods Manifest.lock */,
 				60CD9F5D1C9EA56800EC354F /* Sources */,
 				60CD9F5E1C9EA56800EC354F /* Frameworks */,
 				60CD9F5F1C9EA56800EC354F /* Resources */,
+				28EB8A0B066E05819B8063D3 /* Embed Pods Frameworks */,
+				3FD8F2282B569604E0D11EBA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,23 +313,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606B005A1CE4DF130009099A /* QHRegisterViewController.xib in Resources */,
 				60CD9F771C9EA56800EC354F /* LaunchScreen.storyboard in Resources */,
 				60CD9F741C9EA56800EC354F /* Assets.xcassets in Resources */,
+				606B00651CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib in Resources */,
 				60CD9F6F1C9EA56800EC354F /* Main.storyboard in Resources */,
+				603976001CC51D6200E9DC25 /* QHLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28EB8A0B066E05819B8063D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD8F2282B569604E0D11EBA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A48F315DEF6CDEB91182D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60CD9F5D1C9EA56800EC354F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CD9F6C1C9EA56800EC354F /* ViewController.m in Sources */,
+				606B00551CE4CF580009099A /* QHAlertViewManager.m in Sources */,
+				606B00461CE479290009099A /* QHUserModel.m in Sources */,
+				603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */,
+				603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */,
+				606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */,
+				60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */,
+				6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */,
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
+				606B004F1CE487E60009099A /* QHUserManager.m in Sources */,
 				60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */,
 				60CD9F661C9EA56800EC354F /* main.m in Sources */,
+				606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +401,7 @@
 				60CD9F6E1C9EA56800EC354F /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */ = {
@@ -176,6 +410,7 @@
 				60CD9F761C9EA56800EC354F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,8 +500,10 @@
 		};
 		60CD9F7C1C9EA56800EC354F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4164E44331325240F3DD39E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QHProject/Supporting Files/QHProjectPrefixHeader.pch";
 				INFOPLIST_FILE = QHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chie.QHProject;
@@ -276,8 +513,10 @@
 		};
 		60CD9F7D1C9EA56800EC354F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA641530E0D7F290B397BD1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QHProject/Supporting Files/QHProjectPrefixHeader.pch";
 				INFOPLIST_FILE = QHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chie.QHProject;
@@ -304,6 +543,7 @@
 				60CD9F7D1C9EA56800EC354F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
