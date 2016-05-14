@@ -10,46 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>014F1EBA38A9697441E6474DBDDFD7AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>01BC9D1173CFAC154FCC68971EFCE0C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMConversationUpdateBuilder.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>020273DB799A98B07B5CFE0FEF5C416D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVAvailability.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0205A546F35C34C534046B74098ECC72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E093D627869B650AB8D6411D2DE6B7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
 			<key>children</key>
@@ -63,7 +23,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>03E3FB8C7AF469ABDF753C9349F7B738</key>
+		<key>06C87547DD274EE77ECEF11B1D9F3889</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -72,11 +32,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVMessage.h</string>
+			<string>AVACL.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>098347AECDE9B47D82B271CE76C7557A</key>
+		<key>0748EF92E742A2B99B7ABB337DD1BB36</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5016D2FBBA5FE944043332A6E37D09F1</string>
+				<string>ECF99124010C6687A12AC66EF7116D3E</string>
+				<string>2765871EC92E126EFBFA5262F6612BF1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/MJRefresh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>083392CDECAEA0A3D3994BFC53A1879F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -85,7 +62,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMTypedMessage.h</string>
+			<string>AVIMConversationQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0860EAAABED86AFAF4E867835328A24E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMConversation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08C4AC377DEB9CD3E3DEEB6B25EC76D4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVSession.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -103,16 +106,69 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0F66ED8D5A6CD1B6ECCA0A4889DE1544</key>
+		<key>0990B6D564C0DD389D45A0B18616D03C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVAnalytics.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>09D04A9AB71B5A4FE9175F80496EA5FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2725279473B8ABF757F46F28A7B65009</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0ADB73B982F1A93E977F12A86AA07B52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>MJRefresh.bundle</string>
+			<key>path</key>
+			<string>MJRefresh/MJRefresh.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0B678E4E7D716E2C6EC64BDB96418C7E</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>014F1EBA38A9697441E6474DBDDFD7AF</string>
+				<string>D054768D94E678B8A0D7F2AB4FF45E54</string>
+				<string>FF1FEB28260D52C222E2F87FBBC05277</string>
+				<string>EFCDCCD66269CA908494B11E024DC736</string>
+				<string>9BF8D708AC9892125B0AA4E540361FF8</string>
+				<string>C66A994F14BA080776BB3E2AD8CC55B4</string>
+				<string>B5A8A60810B99D763E3A3F076F63509D</string>
+				<string>6CF9B693754B004AD7FB2F8A6C0C8F36</string>
+				<string>6E80858B842657D04234289E938017AC</string>
+				<string>F58455418F190BC37D1FD19EA3EA5B01</string>
+				<string>F432A374A040EBAB69C9EABC6C4D699A</string>
+				<string>F7B852F0917A6D6540DAB54F736D681B</string>
+				<string>44F50504254959A81B2E96AD6261B2A9</string>
+				<string>D595C17C62C58E80EEC6F9EBCCF4050A</string>
+				<string>EA03AF12E0E3E8ADC50DA70F2C5BF39E</string>
+				<string>C67F32FF951D1979EF0E6B4ADED5E8A8</string>
+				<string>444602F3A422E5EC1DA8EF2A3DFA01EB</string>
+				<string>B9B44F1EDC36C095666CA0AE98371C09</string>
+				<string>904EC3379A9E226064CB03DC1ACA2EEA</string>
+				<string>77F797A5A72065EE7351CF41728C2EC3</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -129,6 +185,59 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>11D5740A201BDE82AB65448843EF6CA3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6318B75E5463CEBC80D9DAC0C1485D59</string>
+				<string>F6623FECE7C1024667110B26BBD59520</string>
+				<string>5DEF79CA54A89E4D30BE4EFAE7A0433A</string>
+				<string>F8AF05E77CAA989B9FD4A4E1E3B386EE</string>
+				<string>6E75C0D1E4D942ECCD27A1E64B94E7A9</string>
+				<string>3B90535835892ADF1A6F0033B048398D</string>
+				<string>493855B44D6C54A6BA05FBA406C314DB</string>
+				<string>62DC2DD3A428963C7669ACA13488EF6A</string>
+				<string>1D9568B3E02085DDA7E856CF8815FDE7</string>
+				<string>2250A8ACFA5FB91907DEBCD0ED429A54</string>
+				<string>2DC2B444A2742BD623ED47DEBF00970D</string>
+				<string>B622660977B79E7A1F4368251F9773B9</string>
+				<string>D1CC5350B5C601108338AA210B8EEDF5</string>
+				<string>FEFDE59D45DFB2BAD40C4A72A9AD704F</string>
+				<string>DF1C1D2A6E9D4D29DDBDA29AE56AC1D7</string>
+				<string>2DF8993DA9E7B4522939CA70C538E830</string>
+				<string>F05F3A4E4263E45037C1A42CB33364A8</string>
+				<string>37CE5C0CFD61AB2D2D80ECB87EC0DB91</string>
+				<string>1A38CB844343C6D0208C9317C560F7BE</string>
+				<string>4F45F45463C6297A0EC8B9991CD90D4E</string>
+				<string>47573C99E416C66D3605FF864420E628</string>
+				<string>C7782E48D796D9503AFE896B7011FDD1</string>
+				<string>A525C8FC41FD0D5FF15C037AE62F2CB6</string>
+				<string>A356C03353F6D32F087C4385F9C7915E</string>
+				<string>4362E1C34877A29772353C6501842E11</string>
+				<string>A89B7384866837394DE881E25F388B5B</string>
+				<string>88666F45FAF18F3FE3837B91F0800128</string>
+				<string>E744507458DBD3F2913A8AD4B009A9F9</string>
+				<string>E6D219A783CBC4C36CDAE49E4A84AB95</string>
+				<string>24DA07012C4B3B69186AE8FF1B369A82</string>
+				<string>60E2E26FF07D94ACC4DB8A43F5F88C16</string>
+				<string>7BB7C17DC454E02D899C28C21EDC7F63</string>
+				<string>776611B1BB47789B2FA68304CC993218</string>
+				<string>4D56061A5CE97534D5C5E02D16055E27</string>
+				<string>2725279473B8ABF757F46F28A7B65009</string>
+				<string>BA9641C968BEA727A2BC5EF9ABEC0174</string>
+				<string>DFDDA9FD03F2559FB80A3A2D865E6A0D</string>
+				<string>C6AC86C3C2EA37E4E3386599734FB411</string>
+				<string>0748EF92E742A2B99B7ABB337DD1BB36</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MJRefresh</string>
+			<key>path</key>
+			<string>MJRefresh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1264325C4220C1BDC3C73E5D496129FD</key>
 		<dict>
 			<key>isa</key>
@@ -142,46 +251,14 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>13A91A6F11D17BD04E5CEAB54C81F611</key>
+		<key>133B30495D945B737235B107AAE7DAAB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>88666F45FAF18F3FE3837B91F0800128</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMCommon.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>162442342F4B553A42919A6A18C3875D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVFileQuery.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>162FD6A246B66E539D96EF4FEC12B524</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMAudioMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16797ED0B29BA8F55679C1EDB5E76563</key>
+		<key>1736D134817214A27A2236A84D5EC1D4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -194,7 +271,44 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FD9E99DDF7C3F02363160A10ABF0F2F</key>
+		<key>1A38CB844343C6D0208C9317C560F7BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshComponent.m</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshComponent.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BA3D9FB5D5145BF698C941C0F843518</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1CC5350B5C601108338AA210B8EEDF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1D9568B3E02085DDA7E856CF8815FDE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshAutoStateFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E9F35AB11001D1AA55413A9D4A54966</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -203,11 +317,75 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVSubclassing.h</string>
+			<string>AVOSCloudIM.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2570C50B21ED7765F3C22384F2EEEC92</key>
+		<key>1F267196E20B5F9824A7284E627E2702</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E093D627869B650AB8D6411D2DE6B7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>200CA5D919CC71EA6A769541C92716D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F05F3A4E4263E45037C1A42CB33364A8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2250A8ACFA5FB91907DEBCD0ED429A54</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshBackFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshBackFooter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2280D55B18C853A6AA3AE9565EE91F19</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DFDDA9FD03F2559FB80A3A2D865E6A0D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2358C96B6A47C50A29CBF985BD7C9CBC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVInstallation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>24DA07012C4B3B69186AE8FF1B369A82</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshStateHeader.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Header/MJRefreshStateHeader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2725279473B8ABF757F46F28A7B65009</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -215,8 +393,10 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIScrollView+MJRefresh.m</string>
 			<key>path</key>
-			<string>MBProgressHUD.m</string>
+			<string>MJRefresh/UIScrollView+MJRefresh.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -233,7 +413,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2773A573A9DB72C6F00BFC2BD7A401E3</key>
+		<key>2765871EC92E126EFBFA5262F6612BF1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -242,9 +422,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVCloudQueryResult.h</string>
+			<string>MJRefresh-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>284B2320EB28D1431C18818E342D6CDA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMTypedMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2894369EF8D702DF360B6763B36E8444</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5DEF79CA54A89E4D30BE4EFAE7A0433A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2989492A1A182744E36FD61DF1746D94</key>
 		<dict>
@@ -253,37 +453,16 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2D37F31122B8EC90F5D96B3C9AB1A658</key>
+		<key>29D5A0BA4A27FFFB8A46A35DD7CF0F53</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>162FD6A246B66E539D96EF4FEC12B524</string>
-				<string>C144B7A20D3BFAE0444496C5460CFC1C</string>
-				<string>ED51A7D8ABF3D508C4214EDC3B579931</string>
-				<string>6C53B258E524AFD6EB9120621F86D17D</string>
-				<string>13A91A6F11D17BD04E5CEAB54C81F611</string>
-				<string>7D6EF98351ED8149216E3623CC555A76</string>
-				<string>AC632122058B85E312CE65615E119096</string>
-				<string>01BC9D1173CFAC154FCC68971EFCE0C2</string>
-				<string>98F8BC912C6D40C8508C9A53722277CD</string>
-				<string>CD1CC380A41F7CBBE34E3BD43EC49C8D</string>
-				<string>42D5887570FD11CD3171A9B80540EC5A</string>
-				<string>903B5F3CDBB22CEEACED8B618D54BA64</string>
-				<string>858D48662C6B53303CA99072D39F06BB</string>
-				<string>F287A5A025FB9E09703E0916A980CAD1</string>
-				<string>753B68DC65DB0D6E2158ABE052F75D5E</string>
-				<string>098347AECDE9B47D82B271CE76C7557A</string>
-				<string>5A9C4EBB98059294195C1BC1C85AC035</string>
-				<string>67FDC0C1E733906A490583E5206299E3</string>
-				<string>C444B2264EFD86BFD804D61154A8B09A</string>
-				<string>8E677A9142F041019C9BC52B56002632</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AVOSCloudIM</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVOSCloudIM</string>
+			<string>AVIMKeyedConversation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -301,7 +480,22 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2E30BB67B1E8FC185FA25B4793AA016A</key>
+		<key>2DC2B444A2742BD623ED47DEBF00970D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshBackFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshBackFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DF8993DA9E7B4522939CA70C538E830</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -309,23 +503,43 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshBackStateFooter.h</string>
 			<key>path</key>
-			<string>AVQuery.h</string>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>30619E1F4D69AE8BD6E27EADE5191F0B</key>
+		<key>346003011339A97DDE1A394DF0A3BB91</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8F68B37533C5AC9C8588BD0449D32673</string>
+				<string>2894369EF8D702DF360B6763B36E8444</string>
+				<string>DA8BAA5F8E5949555BC8B94E309E23D8</string>
+				<string>E0529B7C623EB5752662665A05DAAFBA</string>
+				<string>5FBA673E534DD7485FD75764258C8046</string>
+				<string>A89B33DBDA4E99005E1F1BDB95A296CC</string>
+				<string>1BA3D9FB5D5145BF698C941C0F843518</string>
+				<string>F0D01ED940723EED434E4EF4BCFF53F9</string>
+				<string>200CA5D919CC71EA6A769541C92716D3</string>
+				<string>9230119085130B273ECF20F076081DA1</string>
+				<string>922ACEFE37E22A36A6F0209742B7B51A</string>
+				<string>6EE360D085C7EDD97B0A48A415012D37</string>
+				<string>585CDAC34F08FB220FF26FF55CA899B7</string>
+				<string>133B30495D945B737235B107AAE7DAAB</string>
+				<string>B19CA8B0FD349AEAD2D5A1C6B46AF47D</string>
+				<string>5CBFDC026AAED77902F3CAC48A96FE69</string>
+				<string>932430D4A2289A39BE7C50EEAA60246A</string>
+				<string>09D04A9AB71B5A4FE9175F80496EA5FD</string>
+				<string>2280D55B18C853A6AA3AE9565EE91F19</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>path</key>
-			<string>libAVOSCloudIM.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>36C06A02A00144C64CD7282BA31846BD</key>
 		<dict>
@@ -338,6 +552,38 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>373A6A3A2416DACD6D8EC397AE2EDCF9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A8CD2DE1C5024A7462DF0A99D7656442</string>
+				<string>F9BC71A8EA82B37910023AF352014767</string>
+				<string>C73F37D3415A235C423FA69DB8B7273F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MBProgressHUD</string>
+			<key>path</key>
+			<string>MBProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37CE5C0CFD61AB2D2D80ECB87EC0DB91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshComponent.h</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshComponent.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -354,45 +600,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3BF1EC62CC4FC5E162895C10858B5318</key>
+		<key>3B90535835892ADF1A6F0033B048398D</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>9E7B993757ED101B043AFF05BE8AD433</string>
-				<string>A043B085CA9DA2FE165693BA9D1B51F5</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>MJRefreshAutoNormalFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>42924C95C3D76FD7D2B0E437B8A63682</key>
+		<key>3D32356147D239362A3FF7DCAB918205</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E9436DA64680CAEE2C049F688E9DBC4E</string>
+				<string>C819B9E96AB9A7E8ABFB5DB9068C2E85</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MBProgressHUD-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42D5887570FD11CD3171A9B80540EC5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMKeyedConversation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>433CD3331B6C3787F473C941B61FC68F</key>
 		<dict>
@@ -407,33 +642,93 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>43FB1C60395DA4710F744CE598DA2F7C</key>
+		<key>4362E1C34877A29772353C6501842E11</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshGifHeader.m</string>
 			<key>path</key>
-			<string>AVHistoryMessageQuery.h</string>
+			<string>MJRefresh/Custom/Header/MJRefreshGifHeader.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>49F19B86629908C1C5C1EEA3DF357DEB</key>
+		<key>444602F3A422E5EC1DA8EF2A3DFA01EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>24DA07012C4B3B69186AE8FF1B369A82</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>44EC85C1F1BF6B6EFD8AB7176016AA6F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8F74D9EA91F4C43190670066BAC37D44</string>
+			<key>remoteInfo</key>
+			<string>MJRefresh</string>
+		</dict>
+		<key>44F50504254959A81B2E96AD6261B2A9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C7782E48D796D9503AFE896B7011FDD1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>47573C99E416C66D3605FF864420E628</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshConst.m</string>
 			<key>path</key>
-			<string>AVACL.h</string>
+			<string>MJRefresh/MJRefreshConst.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4D55C84E49D1DC958CA675BCD85384C0</key>
+		<key>493855B44D6C54A6BA05FBA406C314DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshAutoNormalFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D56061A5CE97534D5C5E02D16055E27</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -441,8 +736,10 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIScrollView+MJRefresh.h</string>
 			<key>path</key>
-			<string>AVGeoPoint.h</string>
+			<string>MJRefresh/UIScrollView+MJRefresh.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -459,7 +756,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>53C11DF31C96E6F03E599F1CF3050668</key>
+		<key>4F45F45463C6297A0EC8B9991CD90D4E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -467,29 +764,40 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshConst.h</string>
 			<key>path</key>
-			<string>AVHistoryMessage.h</string>
+			<string>MJRefresh/MJRefreshConst.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>56DB3B31878026595BE11CA26E23A9BE</key>
+		<key>5016D2FBBA5FE944043332A6E37D09F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>MJRefresh.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50DF9AF1DF46904BE4E58126C8781F8E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>7473EBDEFE85EC5980A56DAB6078A176</string>
-				<string>2570C50B21ED7765F3C22384F2EEEC92</string>
-				<string>7294A0AE3DE257A2BB175EFCB4C8E167</string>
+				<string>84F52D195F0829CFBB659FC79FB1CE83</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>MBProgressHUD</string>
-			<key>path</key>
-			<string>MBProgressHUD</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5A44812A6AB1F3FB935275DDD1AC1E5A</key>
+		<key>5100F2831BD35A22312145C6F468372A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -498,11 +806,42 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVFile.h</string>
+			<string>AVRelation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5A9C4EBB98059294195C1BC1C85AC035</key>
+		<key>52DA37DEFE3916FBDF602088F7AE5D52</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FE2F1D7B9D9FCEA148517E4657B243F4</string>
+			<key>remoteInfo</key>
+			<string>MBProgressHUD</string>
+		</dict>
+		<key>585CDAC34F08FB220FF26FF55CA899B7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4362E1C34877A29772353C6501842E11</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A9BBDB4DF288C9C54C9F9701188AD0B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MJRefresh</string>
+			<key>target</key>
+			<string>8F74D9EA91F4C43190670066BAC37D44</string>
+			<key>targetProxy</key>
+			<string>44EC85C1F1BF6B6EFD8AB7176016AA6F</string>
+		</dict>
+		<key>5C09E502B6A00D3DC931751BF1F659A1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -511,14 +850,49 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMUserOptions.h</string>
+			<string>AVIMAvailability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CBFDC026AAED77902F3CAC48A96FE69</key>
+		<dict>
+			<key>fileRef</key>
+			<string>60E2E26FF07D94ACC4DB8A43F5F88C16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5DDCF658813749AE3FA212E9D01BE64E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5DEF79CA54A89E4D30BE4EFAE7A0433A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshAutoFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshAutoFooter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5EB4F27B76513AE918BA5AE0868E87C8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7473EBDEFE85EC5980A56DAB6078A176</string>
+			<string>A8CD2DE1C5024A7462DF0A99D7656442</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -529,7 +903,14 @@
 				</array>
 			</dict>
 		</dict>
-		<key>67FDC0C1E733906A490583E5206299E3</key>
+		<key>5FBA673E534DD7485FD75764258C8046</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D9568B3E02085DDA7E856CF8815FDE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5FEAED0DD6105A3C04CB48B5CAC80812</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -538,11 +919,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMVideoMessage.h</string>
+			<string>AVUser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>680E1CABAC4C3A196D61C00D262F7A10</key>
+		<key>606F761D8A32CB80A18A0FD5C02442CD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -551,7 +932,91 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVSignature.h</string>
+			<string>AVIMSignature.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60E2E26FF07D94ACC4DB8A43F5F88C16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshStateHeader.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Header/MJRefreshStateHeader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>621628D19DDB4420A05F1671E4B0B249</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMLocationMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>62DC2DD3A428963C7669ACA13488EF6A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshAutoStateFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6318B75E5463CEBC80D9DAC0C1485D59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefresh.h</string>
+			<key>path</key>
+			<string>MJRefresh/MJRefresh.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>63F6C625D72DFBF437AF3AFD81F510CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMFileMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6750E8119DAD641CA897935D03523621</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVQuery.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -568,52 +1033,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6987DEA6E4670E28594E6055F0C5525D</key>
+		<key>69A5B4E7FCAB74686FDCBC2AE9A9B035</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>06C87547DD274EE77ECEF11B1D9F3889</string>
+				<string>0990B6D564C0DD389D45A0B18616D03C</string>
+				<string>E4B3AD4D4EA341EA9147C34B2B9295BB</string>
+				<string>A4565DAEAFFBB81BA2C7A6F6D196B20C</string>
+				<string>EFF5312C00041EA69973F710BEAF7AB1</string>
+				<string>DCE4B5B5BB5D19234414D03378E9F882</string>
+				<string>1736D134817214A27A2236A84D5EC1D4</string>
+				<string>B0EBF2869AE555ACD07C2D30B29C2B9C</string>
+				<string>7A735461BB354C3290C23563A218557E</string>
+				<string>7608B49547CC84AA59C8601619194CC8</string>
+				<string>A0C2AA65C3DF3D21A581F6E46F25F41C</string>
+				<string>E1CB87AA2AED071A8C7367257D48384E</string>
+				<string>BF3AD749392D3AF8DBF07B6FA5AF9978</string>
+				<string>2358C96B6A47C50A29CBF985BD7C9CBC</string>
+				<string>E9294E2C5E3470B2B3F1329E20BDB165</string>
+				<string>A25DD6C48B920CE87BB49BE6D63A6547</string>
+				<string>9C32F2B12EA299585F0037580A65632B</string>
+				<string>6FD9BD56749C8D41FCA2690EADD98DFA</string>
+				<string>A301D2036C6F295E27C2F6B0523EDD0E</string>
+				<string>6C44ECB240F76E321CC1FCC8B06BAED3</string>
+				<string>6750E8119DAD641CA897935D03523621</string>
+				<string>5100F2831BD35A22312145C6F468372A</string>
+				<string>E4E751F1FD196D6389D3A8C48CEBAFFB</string>
+				<string>6F8342A732BAEEF64610B1CE208B6EEF</string>
+				<string>FEBFE416B5F9A9EEC3F54152DA55FC45</string>
+				<string>952CDA46601810907AFA0E044BF1FF8A</string>
+				<string>08C4AC377DEB9CD3E3DEEB6B25EC76D4</string>
+				<string>7DDF4F04331145BA755AF02694B11AB2</string>
+				<string>C46E04DF1BF765B1296784D995E6E188</string>
+				<string>9B5784450E80D3972A449B4E5431BA13</string>
+				<string>5FEAED0DD6105A3C04CB48B5CAC80812</string>
+				<string>D0FCE3A1432A94A30BCBDBBD696D017A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AVOSCloud</string>
 			<key>path</key>
-			<string>AVObject.h</string>
+			<string>AVOSCloud</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6AE9189D82E113F36B3012F443747490</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6C53B258E524AFD6EB9120621F86D17D</key>
+		<key>69B2B6AD5732D9A0DC7D78274910D018</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -625,6 +1091,33 @@
 			<string>AVIMClientOpenOption.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C44ECB240F76E321CC1FCC8B06BAED3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVPush.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CF9B693754B004AD7FB2F8A6C0C8F36</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B622660977B79E7A1F4368251F9773B9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>6E093D627869B650AB8D6411D2DE6B7A</key>
 		<dict>
@@ -639,31 +1132,43 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>70D801E0B95C23BCC270E4EC8659D463</key>
+		<key>6E75C0D1E4D942ECCD27A1E64B94E7A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshAutoGifFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E80858B842657D04234289E938017AC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1264325C4220C1BDC3C73E5D496129FD</string>
+			<string>FEFDE59D45DFB2BAD40C4A72A9AD704F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6EE360D085C7EDD97B0A48A415012D37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A525C8FC41FD0D5FF15C037AE62F2CB6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7294A0AE3DE257A2BB175EFCB4C8E167</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7EF42FF0266AC34063BA372041282E7C</string>
-				<string>9685E85C9C26DBB85198A09F4EDE0AA5</string>
-				<string>42924C95C3D76FD7D2B0E437B8A63682</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/MBProgressHUD</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7473EBDEFE85EC5980A56DAB6078A176</key>
+		<key>6F8342A732BAEEF64610B1CE208B6EEF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -672,78 +1177,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>MBProgressHUD.h</string>
+			<string>AVSaveOption.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>753B68DC65DB0D6E2158ABE052F75D5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMTextMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BF1FCCF0E5CF82736480BFBF19AE79F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVInstallation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CB715EEF0AF868C90479DA77C5768C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVObject+Subclass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D6EF98351ED8149216E3623CC555A76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMConversation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>B739FEF21670A6F754647434D0569E85</string>
-				<string>3BF1EC62CC4FC5E162895C10858B5318</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EF42FF0266AC34063BA372041282E7C</key>
+		<key>6FA112B0FBD8A19E46C83DBA8FD47EBE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -756,10 +1194,190 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6FD9BD56749C8D41FCA2690EADD98DFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVObject+Subclass.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70D801E0B95C23BCC270E4EC8659D463</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1264325C4220C1BDC3C73E5D496129FD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>74C42AB68AFF304CFD9C354E4F9AC319</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMVideoMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7608B49547CC84AA59C8601619194CC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVGeoPoint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>769CCACB153788A8DEAE9D0DE2B147F2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D5050E9C55CB47B865FDE9FFD44D89DB</string>
+				<string>5C09E502B6A00D3DC931751BF1F659A1</string>
+				<string>5DDCF658813749AE3FA212E9D01BE64E</string>
+				<string>69B2B6AD5732D9A0DC7D78274910D018</string>
+				<string>EE159B30D4EC4E30DC05149C58E3DA1D</string>
+				<string>0860EAAABED86AFAF4E867835328A24E</string>
+				<string>083392CDECAEA0A3D3994BFC53A1879F</string>
+				<string>EAF7B34387DE1DB5DF7F2DDD2A5B885A</string>
+				<string>63F6C625D72DFBF437AF3AFD81F510CD</string>
+				<string>9131AADD8BF40EF630CC3F6C425F37A0</string>
+				<string>29D5A0BA4A27FFFB8A46A35DD7CF0F53</string>
+				<string>621628D19DDB4420A05F1671E4B0B249</string>
+				<string>D55A18EBD7DE77C44D6E8778FAEA799D</string>
+				<string>606F761D8A32CB80A18A0FD5C02442CD</string>
+				<string>FF0BE2453C43D3BD7BD1D8B6E5D456CF</string>
+				<string>284B2320EB28D1431C18818E342D6CDA</string>
+				<string>87BD4BE9DEF390A01BC9354265B823FF</string>
+				<string>74C42AB68AFF304CFD9C354E4F9AC319</string>
+				<string>1E9F35AB11001D1AA55413A9D4A54966</string>
+				<string>50DF9AF1DF46904BE4E58126C8781F8E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AVOSCloudIM</string>
+			<key>path</key>
+			<string>AVOSCloudIM</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>776611B1BB47789B2FA68304CC993218</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIScrollView+MJExtension.m</string>
+			<key>path</key>
+			<string>MJRefresh/UIScrollView+MJExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77F797A5A72065EE7351CF41728C2EC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA9641C968BEA727A2BC5EF9ABEC0174</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7A735461BB354C3290C23563A218557E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVFileQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BB7C17DC454E02D899C28C21EDC7F63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIScrollView+MJExtension.h</string>
+			<key>path</key>
+			<string>MJRefresh/UIScrollView+MJExtension.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>8DD7DE8C5325B5D0543E44E08A8D2B40</string>
+				<string>FDC0E67A721F27E071876C2484D049BE</string>
+				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DDF4F04331145BA755AF02694B11AB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVSignature.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7E7DD8969C6D0D0BBB6B12965492EFE3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMJRefresh.a</string>
+			<key>path</key>
+			<string>libMJRefresh.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>82FC12F67E83874B93592218E9FB4CA0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2570C50B21ED7765F3C22384F2EEEC92</string>
+			<string>F9BC71A8EA82B37910023AF352014767</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -768,20 +1386,20 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>858D48662C6B53303CA99072D39F06BB</key>
+		<key>84F52D195F0829CFBB659FC79FB1CE83</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>archive.ar</string>
 			<key>path</key>
-			<string>AVIMMessage.h</string>
+			<string>libAVOSCloudIM.a</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87BDB10A001DFFBBFDDFFAFCEE621037</key>
+		<key>87BD4BE9DEF390A01BC9354265B823FF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -790,25 +1408,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVCloud.h</string>
+			<string>AVIMUserOptions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87C9C95CDB8BE6AAC37FE3553F5B95B5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6AE9189D82E113F36B3012F443747490</string>
-				<string>FF9DCCAD1A8484D829D965B628ACAF12</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>87E5D04AADD18177D299C03AEC10EEA9</key>
+		<key>883F2A5AC7EB7D0F103FD980F1777937</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -817,7 +1421,22 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVLogger.h</string>
+			<string>MBProgressHUD-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>88666F45FAF18F3FE3837B91F0800128</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshHeader.m</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshHeader.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -894,20 +1513,89 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>8E677A9142F041019C9BC52B56002632</key>
+		<key>8D8759BD24F5D27721D3E07103CC5B79</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8DD7DE8C5325B5D0543E44E08A8D2B40</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>30619E1F4D69AE8BD6E27EADE5191F0B</string>
+				<string>69A5B4E7FCAB74686FDCBC2AE9A9B035</string>
+				<string>769CCACB153788A8DEAE9D0DE2B147F2</string>
+				<string>373A6A3A2416DACD6D8EC397AE2EDCF9</string>
+				<string>11D5740A201BDE82AB65448843EF6CA3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>903B5F3CDBB22CEEACED8B618D54BA64</key>
+		<key>8F68B37533C5AC9C8588BD0449D32673</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ECF99124010C6687A12AC66EF7116D3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8F74D9EA91F4C43190670066BAC37D44</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3D32356147D239362A3FF7DCAB918205</string>
+			<key>buildPhases</key>
+			<array>
+				<string>346003011339A97DDE1A394DF0A3BB91</string>
+				<string>F6AAF5593D0C5E24B3377E5C3999D0AA</string>
+				<string>0B678E4E7D716E2C6EC64BDB96418C7E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MJRefresh</string>
+			<key>productName</key>
+			<string>MJRefresh</string>
+			<key>productReference</key>
+			<string>7E7DD8969C6D0D0BBB6B12965492EFE3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>904EC3379A9E226064CB03DC1ACA2EEA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D56061A5CE97534D5C5E02D16055E27</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>908DC5C10A076F0D05714A3EDF1B98DA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8D8759BD24F5D27721D3E07103CC5B79</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9131AADD8BF40EF630CC3F6C425F37A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -916,11 +1604,32 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMLocationMessage.h</string>
+			<string>AVIMImageMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9685E85C9C26DBB85198A09F4EDE0AA5</key>
+		<key>922ACEFE37E22A36A6F0209742B7B51A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>47573C99E416C66D3605FF864420E628</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9230119085130B273ECF20F076081DA1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A38CB844343C6D0208C9317C560F7BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>932430D4A2289A39BE7C50EEAA60246A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>776611B1BB47789B2FA68304CC993218</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93F6494671DDA52969E5CCEABE2EBB62</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -932,6 +1641,65 @@
 			<string>MBProgressHUD-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>952CDA46601810907AFA0E044BF1FF8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVSearchSortBuilder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96F852AE820253B3D7AB373D74B0A6EA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>97E023A96F1B45447062291E3733DDC5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F02385DF1AAF8F8F618F0C8B3B0EFE13</string>
+				<string>96F852AE820253B3D7AB373D74B0A6EA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
@@ -946,7 +1714,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>98F8BC912C6D40C8508C9A53722277CD</key>
+		<key>9B5784450E80D3972A449B4E5431BA13</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -955,52 +1723,49 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMFileMessage.h</string>
+			<string>AVSubclassing.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9D9EDDB0965E68B35FA5CDC24EAF37EB</key>
+		<key>9BF8D708AC9892125B0AA4E540361FF8</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>3B90535835892ADF1A6F0033B048398D</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9C32F2B12EA299585F0037580A65632B</key>
+		<dict>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FE2F1D7B9D9FCEA148517E4657B243F4</string>
-			<key>remoteInfo</key>
-			<string>MBProgressHUD</string>
-		</dict>
-		<key>9E7B993757ED101B043AFF05BE8AD433</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libMBProgressHUD.a</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>libMBProgressHUD.a</string>
+			<string>AVObject.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A043B085CA9DA2FE165693BA9D1B51F5</key>
+		<key>A0C2AA65C3DF3D21A581F6E46F25F41C</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>libPods.a</string>
+			<string>AVGroup.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
 		<dict>
@@ -1015,7 +1780,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A2A33CBA7A93AC28E12BA023D998490B</key>
+		<key>A25DD6C48B920CE87BB49BE6D63A6547</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1024,11 +1789,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVStatus.h</string>
+			<string>AVMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A5247D2AB63D98039A37C119CCBE9F80</key>
+		<key>A301D2036C6F295E27C2F6B0523EDD0E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1037,11 +1802,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVSearchSortBuilder.h</string>
+			<string>AVOSCloud.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7927932BB33777F9CBCE3AA589D1006</key>
+		<key>A356C03353F6D32F087C4385F9C7915E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1049,12 +1814,14 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshGifHeader.h</string>
 			<key>path</key>
-			<string>AVSaveOption.h</string>
+			<string>MJRefresh/Custom/Header/MJRefreshGifHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AC632122058B85E312CE65615E119096</key>
+		<key>A4565DAEAFFBB81BA2C7A6F6D196B20C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1063,11 +1830,48 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMConversationQuery.h</string>
+			<string>AVAvailability.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B2E56566BC5F4D686A0E41F162000782</key>
+		<key>A525C8FC41FD0D5FF15C037AE62F2CB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A89B33DBDA4E99005E1F1BDB95A296CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DC2B444A2742BD623ED47DEBF00970D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A89B7384866837394DE881E25F388B5B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshHeader.h</string>
+			<key>path</key>
+			<string>MJRefresh/Base/MJRefreshHeader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8CD2DE1C5024A7462DF0A99D7656442</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1076,9 +1880,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVRelation.h</string>
+			<string>MBProgressHUD.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0EBF2869AE555ACD07C2D30B29C2B9C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B19CA8B0FD349AEAD2D5A1C6B46AF47D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E6D219A783CBC4C36CDAE49E4A84AB95</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
 		<dict>
@@ -1101,33 +1925,59 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B4804E010679918456C82BDF5825CB61</key>
+		<key>B5A8A60810B99D763E3A3F076F63509D</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>E84C0A8D318BF11396688D6FBC70B8B2</string>
-			</array>
+			<key>fileRef</key>
+			<string>2250A8ACFA5FB91907DEBCD0ED429A54</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B622660977B79E7A1F4368251F9773B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>MJRefreshBackGifFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B739FEF21670A6F754647434D0569E85</key>
+		<key>B83E1E84B9896E95B0E9303665825004</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>E42600C39930AF5EFA52D01FE2FBF9F3</string>
-				<string>2D37F31122B8EC90F5D96B3C9AB1A658</string>
-				<string>56DB3B31878026595BE11CA26E23A9BE</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>MBProgressHUD</string>
+			<key>target</key>
+			<string>FE2F1D7B9D9FCEA148517E4657B243F4</string>
+			<key>targetProxy</key>
+			<string>52DA37DEFE3916FBDF602088F7AE5D52</string>
+		</dict>
+		<key>B9B44F1EDC36C095666CA0AE98371C09</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7BB7C17DC454E02D899C28C21EDC7F63</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1146,7 +1996,7 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BC18CA408E569D40D3D286CD13383CEB</key>
+		<key>BA9641C968BEA727A2BC5EF9ABEC0174</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1154,12 +2004,14 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+MJExtension.h</string>
 			<key>path</key>
-			<string>AVUser.h</string>
+			<string>MJRefresh/UIView+MJExtension.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C144B7A20D3BFAE0444496C5460CFC1C</key>
+		<key>BF3AD749392D3AF8DBF07B6FA5AF9978</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1168,11 +2020,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMAvailability.h</string>
+			<string>AVHistoryMessageQuery.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C444B2264EFD86BFD804D61154A8B09A</key>
+		<key>C1DAA515EEE44666FC7C3CCAB35036F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E093D627869B650AB8D6411D2DE6B7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C46E04DF1BF765B1296784D995E6E188</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1181,14 +2040,14 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVOSCloudIM.h</string>
+			<string>AVStatus.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C550302C2133243B83B7191844429167</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>7EF42FF0266AC34063BA372041282E7C</string>
+			<string>6FA112B0FBD8A19E46C83DBA8FD47EBE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1287,72 +2146,65 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C8877EF0ECECB34CD91679279FBC0A6A</key>
+		<key>C66A994F14BA080776BB3E2AD8CC55B4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>62DC2DD3A428963C7669ACA13488EF6A</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVAnonymousUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>CA6B6247C232863826EA479E552E6B28</key>
+		<key>C67F32FF951D1979EF0E6B4ADED5E8A8</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>87C9C95CDB8BE6AAC37FE3553F5B95B5</string>
-			<key>buildPhases</key>
+			<key>fileRef</key>
+			<string>E744507458DBD3F2913A8AD4B009A9F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C6AC86C3C2EA37E4E3386599734FB411</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>0F66ED8D5A6CD1B6ECCA0A4889DE1544</string>
-				<string>E15F6817EE9CE10A3BE349F6167E3102</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E94F4A5FF4DF7AE9401E5034BA1BC530</string>
+				<string>0ADB73B982F1A93E977F12A86AA07B52</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>A043B085CA9DA2FE165693BA9D1B51F5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>CD1CC380A41F7CBBE34E3BD43EC49C8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AVIMImageMessage.h</string>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D147D9A7FC1C818CBE75004FC50B0237</key>
+		<key>C73F37D3415A235C423FA69DB8B7273F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>6FA112B0FBD8A19E46C83DBA8FD47EBE</string>
+				<string>93F6494671DDA52969E5CCEABE2EBB62</string>
+				<string>883F2A5AC7EB7D0F103FD980F1777937</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>AVRole.h</string>
+			<string>../Target Support Files/MBProgressHUD</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D1E957CDE6770D3F18D93116A56765BA</key>
+		<key>C7782E48D796D9503AFE896B7011FDD1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1360,8 +2212,114 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshFooter.h</string>
 			<key>path</key>
-			<string>AVGroup.h</string>
+			<string>MJRefresh/Base/MJRefreshFooter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C819B9E96AB9A7E8ABFB5DB9068C2E85</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5016D2FBBA5FE944043332A6E37D09F1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MJRefresh/MJRefresh-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C84CF4081E11D9FF40D792B9BA556381</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F267196E20B5F9824A7284E627E2702</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CF0230FB36CEC31D201E8A617C393B24</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D054768D94E678B8A0D7F2AB4FF45E54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6318B75E5463CEBC80D9DAC0C1485D59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D0FCE3A1432A94A30BCBDBBD696D017A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E41EE07E594A6F9012279B7B35375BEE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1CC5350B5C601108338AA210B8EEDF5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshBackGifFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1391,7 +2349,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>3BF1EC62CC4FC5E162895C10858B5318</string>
+			<string>FDC0E67A721F27E071876C2484D049BE</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1401,23 +2359,11 @@
 			<key>targets</key>
 			<array>
 				<string>FE2F1D7B9D9FCEA148517E4657B243F4</string>
-				<string>CA6B6247C232863826EA479E552E6B28</string>
+				<string>8F74D9EA91F4C43190670066BAC37D44</string>
+				<string>FB7005DA8E4760D0414257DD3BFA50E4</string>
 			</array>
 		</dict>
-		<key>E15F6817EE9CE10A3BE349F6167E3102</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0205A546F35C34C534046B74098ECC72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E25BDE5DF2A5CEC241F3201E53E931A3</key>
+		<key>D5050E9C55CB47B865FDE9FFD44D89DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1426,11 +2372,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVOSCloud.h</string>
+			<string>AVIMAudioMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E37C34D415D76F62B25B018727961A82</key>
+		<key>D55A18EBD7DE77C44D6E8778FAEA799D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1439,53 +2385,175 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVSession.h</string>
+			<string>AVIMMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E42600C39930AF5EFA52D01FE2FBF9F3</key>
+		<key>D595C17C62C58E80EEC6F9EBCCF4050A</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>49F19B86629908C1C5C1EEA3DF357DEB</string>
-				<string>EA267BAE6653613DB68CA593EDACBCBC</string>
-				<string>C8877EF0ECECB34CD91679279FBC0A6A</string>
-				<string>020273DB799A98B07B5CFE0FEF5C416D</string>
-				<string>87BDB10A001DFFBBFDDFFAFCEE621037</string>
-				<string>2773A573A9DB72C6F00BFC2BD7A401E3</string>
-				<string>16797ED0B29BA8F55679C1EDB5E76563</string>
-				<string>5A44812A6AB1F3FB935275DDD1AC1E5A</string>
-				<string>162442342F4B553A42919A6A18C3875D</string>
-				<string>4D55C84E49D1DC958CA675BCD85384C0</string>
-				<string>D1E957CDE6770D3F18D93116A56765BA</string>
-				<string>53C11DF31C96E6F03E599F1CF3050668</string>
-				<string>43FB1C60395DA4710F744CE598DA2F7C</string>
-				<string>7BF1FCCF0E5CF82736480BFBF19AE79F</string>
-				<string>87E5D04AADD18177D299C03AEC10EEA9</string>
-				<string>03E3FB8C7AF469ABDF753C9349F7B738</string>
-				<string>6987DEA6E4670E28594E6055F0C5525D</string>
-				<string>7CB715EEF0AF868C90479DA77C5768C4</string>
-				<string>E25BDE5DF2A5CEC241F3201E53E931A3</string>
-				<string>F64B5D679EAD9C9C8A50456675809464</string>
-				<string>2E30BB67B1E8FC185FA25B4793AA016A</string>
-				<string>B2E56566BC5F4D686A0E41F162000782</string>
-				<string>D147D9A7FC1C818CBE75004FC50B0237</string>
-				<string>A7927932BB33777F9CBCE3AA589D1006</string>
-				<string>ED18FA6A549ABE2ECCBD564A5282DE5A</string>
-				<string>A5247D2AB63D98039A37C119CCBE9F80</string>
-				<string>E37C34D415D76F62B25B018727961A82</string>
-				<string>680E1CABAC4C3A196D61C00D262F7A10</string>
-				<string>A2A33CBA7A93AC28E12BA023D998490B</string>
-				<string>1FD9E99DDF7C3F02363160A10ABF0F2F</string>
-				<string>BC18CA408E569D40D3D286CD13383CEB</string>
-				<string>B4804E010679918456C82BDF5825CB61</string>
-			</array>
+			<key>fileRef</key>
+			<string>A356C03353F6D32F087C4385F9C7915E</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DA8BAA5F8E5949555BC8B94E309E23D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E75C0D1E4D942ECCD27A1E64B94E7A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCE4B5B5BB5D19234414D03378E9F882</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVCloudQueryResult.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF1C1D2A6E9D4D29DDBDA29AE56AC1D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AVOSCloud</string>
+			<string>MJRefreshBackNormalFooter.m</string>
 			<key>path</key>
-			<string>AVOSCloud</string>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF88C360D31F36763DB42B93E6A66BED</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMBProgressHUD.a</string>
+			<key>path</key>
+			<string>libMBProgressHUD.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DFDDA9FD03F2559FB80A3A2D865E6A0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+MJExtension.m</string>
+			<key>path</key>
+			<string>MJRefresh/UIView+MJExtension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0529B7C623EB5752662665A05DAAFBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>493855B44D6C54A6BA05FBA406C314DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E1CB87AA2AED071A8C7367257D48384E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVHistoryMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E41EE07E594A6F9012279B7B35375BEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>path</key>
+			<string>libAVOSCloud.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4B3AD4D4EA341EA9147C34B2B9295BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVAnonymousUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4E751F1FD196D6389D3A8C48CEBAFFB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVRole.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6D219A783CBC4C36CDAE49E4A84AB95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshNormalHeader.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Header/MJRefreshNormalHeader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E744507458DBD3F2913A8AD4B009A9F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshNormalHeader.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Header/MJRefreshNormalHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1503,31 +2571,68 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>E84C0A8D318BF11396688D6FBC70B8B2</key>
+		<key>E9294E2C5E3470B2B3F1329E20BDB165</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>libAVOSCloud.a</string>
+			<string>AVLogger.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E94F4A5FF4DF7AE9401E5034BA1BC530</key>
+		<key>E9436DA64680CAEE2C049F688E9DBC4E</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5016D2FBBA5FE944043332A6E37D09F1</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MJRefresh/MJRefresh-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>MBProgressHUD</string>
-			<key>target</key>
-			<string>FE2F1D7B9D9FCEA148517E4657B243F4</string>
-			<key>targetProxy</key>
-			<string>9D9EDDB0965E68B35FA5CDC24EAF37EB</string>
+			<string>Debug</string>
 		</dict>
-		<key>EA267BAE6653613DB68CA593EDACBCBC</key>
+		<key>EA03AF12E0E3E8ADC50DA70F2C5BF39E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A89B7384866837394DE881E25F388B5B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EAF7B34387DE1DB5DF7F2DDD2A5B885A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1536,27 +2641,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVAnalytics.h</string>
+			<string>AVIMConversationUpdateBuilder.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ED18FA6A549ABE2ECCBD564A5282DE5A</key>
+		<key>ECF99124010C6687A12AC66EF7116D3E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>AVSearchQuery.h</string>
+			<string>MJRefresh-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ED2CBF2A6B682FB5E7EAA2CE28264B44</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>7EF42FF0266AC34063BA372041282E7C</string>
+			<string>6FA112B0FBD8A19E46C83DBA8FD47EBE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1587,7 +2692,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>ED51A7D8ABF3D508C4214EDC3B579931</key>
+		<key>EE159B30D4EC4E30DC05149C58E3DA1D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1596,7 +2701,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMClient.h</string>
+			<string>AVIMCommon.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1613,7 +2718,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F287A5A025FB9E09703E0916A980CAD1</key>
+		<key>EFCDCCD66269CA908494B11E024DC736</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8AF05E77CAA989B9FD4A4E1E3B386EE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EFF5312C00041EA69973F710BEAF7AB1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1622,9 +2741,63 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AVIMSignature.h</string>
+			<string>AVCloud.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F02385DF1AAF8F8F618F0C8B3B0EFE13</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F05F3A4E4263E45037C1A42CB33364A8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MJRefreshBackStateFooter.m</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0D01ED940723EED434E4EF4BCFF53F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DF1C1D2A6E9D4D29DDBDA29AE56AC1D7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F2F5671C4613023EE94A2E62DA06031D</key>
 		<dict>
@@ -1640,7 +2813,35 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>F64B5D679EAD9C9C8A50456675809464</key>
+		<key>F432A374A040EBAB69C9EABC6C4D699A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>37CE5C0CFD61AB2D2D80ECB87EC0DB91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F58455418F190BC37D1FD19EA3EA5B01</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DF8993DA9E7B4522939CA70C538E830</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F6623FECE7C1024667110B26BBD59520</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1648,17 +2849,116 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshAutoFooter.h</string>
 			<key>path</key>
-			<string>AVPush.h</string>
+			<string>MJRefresh/Base/MJRefreshAutoFooter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6AAF5593D0C5E24B3377E5C3999D0AA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C1DAA515EEE44666FC7C3CCAB35036F9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F7B852F0917A6D6540DAB54F736D681B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F45F45463C6297A0EC8B9991CD90D4E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F8AF05E77CAA989B9FD4A4E1E3B386EE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MJRefreshAutoGifFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9BC71A8EA82B37910023AF352014767</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MBProgressHUD.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB7005DA8E4760D0414257DD3BFA50E4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>97E023A96F1B45447062291E3733DDC5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>908DC5C10A076F0D05714A3EDF1B98DA</string>
+				<string>C84CF4081E11D9FF40D792B9BA556381</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B83E1E84B9896E95B0E9303665825004</string>
+				<string>5A9BBDB4DF288C9C54C9F9701188AD0B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>CF0230FB36CEC31D201E8A617C393B24</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>FC214077677D4F02E03C6C85F774E028</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9685E85C9C26DBB85198A09F4EDE0AA5</string>
+			<string>93F6494671DDA52969E5CCEABE2EBB62</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>FDC0E67A721F27E071876C2484D049BE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DF88C360D31F36763DB42B93E6A66BED</string>
+				<string>7E7DD8969C6D0D0BBB6B12965492EFE3</string>
+				<string>CF0230FB36CEC31D201E8A617C393B24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
 		<dict>
@@ -1681,41 +2981,64 @@
 			<key>productName</key>
 			<string>MBProgressHUD</string>
 			<key>productReference</key>
-			<string>9E7B993757ED101B043AFF05BE8AD433</string>
+			<string>DF88C360D31F36763DB42B93E6A66BED</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>FF9DCCAD1A8484D829D965B628ACAF12</key>
+		<key>FEBFE416B5F9A9EEC3F54152DA55FC45</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVSearchQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEFDE59D45DFB2BAD40C4A72A9AD704F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>MJRefreshBackNormalFooter.h</string>
+			<key>path</key>
+			<string>MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF0BE2453C43D3BD7BD1D8B6E5D456CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AVIMTextMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF1FEB28260D52C222E2F87FBBC05277</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F6623FECE7C1024667110B26BBD59520</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>rootObject</key>
