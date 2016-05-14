@@ -7,7 +7,17 @@
 //
 
 
+#define WS(weakSelf) __weak typeof(self) weakSelf = self;
+
+#pragma mark - QHProject
+#include "QHCommonBlock.h"
+
+#include "QHUserManager.h"
+#include "QHAlertViewManager.h"
+
+#pragma mark - LeanCloud
+
 #import <AVOSCloud/AVOSCloud.h>
 #import <AVOSCloudIM.h>
-
+#import <AVUser.h>
 

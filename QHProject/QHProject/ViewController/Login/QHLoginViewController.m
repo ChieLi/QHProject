@@ -7,6 +7,7 @@
 //
 
 #import "QHLoginViewController.h"
+#import "QHChooseRegisterTypeViewController.h"
 
 @interface QHLoginViewController ()
 
@@ -33,6 +34,8 @@
 }
 
 - (IBAction)clickRegisterButton:(id)sender {
+    QHChooseRegisterTypeViewController *chooseVC = [[QHChooseRegisterTypeViewController alloc] init];
+    [self.navigationController pushViewController:chooseVC animated:YES];
 }
 
 - (IBAction)clickForgetPasswordButton:(id)sender {

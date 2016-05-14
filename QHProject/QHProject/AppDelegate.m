@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "QHThirdPartyKey.h"
 #import "QHRootTabBarController.h"
+#import "QHLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,9 +23,17 @@
     
     [self setUpLeanClound];
     
-    QHRootTabBarController *rootTabBarController = [[QHRootTabBarController alloc] init];
-    
-    self.window.rootViewController = rootTabBarController;
+    if (![QHUserManager currentUser]) {
+
+        QHLoginViewController *loginVC = [[QHLoginViewController alloc] init];
+        UINavigationController *loginNC = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        self.window.rootViewController = loginNC;
+    } else {
+        
+        QHRootTabBarController *rootTabBarController = [[QHRootTabBarController alloc] init];
+        
+        self.window.rootViewController = rootTabBarController;
+    }
     
     return YES;
 }
