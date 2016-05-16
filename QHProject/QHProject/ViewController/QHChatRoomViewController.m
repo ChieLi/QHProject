@@ -1,28 +1,22 @@
 //
-//  QHRootTabBarController.m
+//  QHChatRoomViewController.m
 //  QHProject
 //
-//  Created by Chie Li on 16/4/18.
+//  Created by Chie Li on 16/5/14.
 //  Copyright © 2016年 ChieLi. All rights reserved.
 //
 
-#import "QHRootTabBarController.h"
-#import "QHHomeViewController.h"
 #import "QHChatRoomViewController.h"
-#import "QHMyMainViewController.h"
 
-
-@interface QHRootTabBarController ()
+@interface QHChatRoomViewController ()
 
 @end
 
-@implementation QHRootTabBarController
+@implementation QHChatRoomViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -19,6 +19,10 @@
 		606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00621CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m */; };
 		606B00651CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606B00631CE5C7FF0009099A /* QHChooseRegisterTypeViewController.xib */; };
 		60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */; };
+		60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C849FF1CE6F0E800D6569C /* QHHomeViewController.m */; };
+		60C84A031CE6F0F800D6569C /* QHChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */; };
+		60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A051CE6F31D00D6569C /* QHMyMainViewController.m */; };
+		60C84A0A1CE6F46000D6569C /* QHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A091CE6F46000D6569C /* QHBaseNavigationController.m */; };
 		60CD9F661C9EA56800EC354F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F651C9EA56800EC354F /* main.m */; };
 		60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F681C9EA56800EC354F /* AppDelegate.m */; };
 		60CD9F6F1C9EA56800EC354F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F6D1C9EA56800EC354F /* Main.storyboard */; };
@@ -53,6 +57,14 @@
 		608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHThirdPartyKey.h; sourceTree = "<group>"; };
 		60C849F71CE6EAEF00D6569C /* QHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseTableViewController.h; sourceTree = "<group>"; };
 		60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseTableViewController.m; sourceTree = "<group>"; };
+		60C849FE1CE6F0E800D6569C /* QHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHHomeViewController.h; sourceTree = "<group>"; };
+		60C849FF1CE6F0E800D6569C /* QHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHHomeViewController.m; sourceTree = "<group>"; };
+		60C84A011CE6F0F800D6569C /* QHChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHChatRoomViewController.h; sourceTree = "<group>"; };
+		60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHChatRoomViewController.m; sourceTree = "<group>"; };
+		60C84A041CE6F31D00D6569C /* QHMyMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMyMainViewController.h; sourceTree = "<group>"; };
+		60C84A051CE6F31D00D6569C /* QHMyMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHMyMainViewController.m; sourceTree = "<group>"; };
+		60C84A081CE6F46000D6569C /* QHBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseNavigationController.h; sourceTree = "<group>"; };
+		60C84A091CE6F46000D6569C /* QHBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseNavigationController.m; sourceTree = "<group>"; };
 		60CD9F611C9EA56800EC354F /* QHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CD9F651C9EA56800EC354F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60CD9F671C9EA56800EC354F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +127,7 @@
 		606B005B1CE5C70D0009099A /* User */ = {
 			isa = PBXGroup;
 			children = (
+				60C84A071CE6F32C00D6569C /* MyMainViewController */,
 				606B00661CE5E36B0009099A /* ChooseRegisterTypeViewController */,
 				606B004C1CE482110009099A /* RegisterViewController */,
 				60AD782A1CA942EC00140298 /* LoginViewController */,
@@ -152,6 +165,8 @@
 				603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */,
 				60C849F71CE6EAEF00D6569C /* QHBaseTableViewController.h */,
 				60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */,
+				60C84A081CE6F46000D6569C /* QHBaseNavigationController.h */,
+				60C84A091CE6F46000D6569C /* QHBaseNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -170,6 +185,8 @@
 		60C849F51CE6EA6D00D6569C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				60C849FE1CE6F0E800D6569C /* QHHomeViewController.h */,
+				60C849FF1CE6F0E800D6569C /* QHHomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -177,8 +194,26 @@
 		60C849F61CE6EAAB00D6569C /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				60C84A011CE6F0F800D6569C /* QHChatRoomViewController.h */,
+				60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */,
 			);
 			name = Chat;
+			sourceTree = "<group>";
+		};
+		60C849FD1CE6EE3F00D6569C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		60C84A071CE6F32C00D6569C /* MyMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60C84A041CE6F31D00D6569C /* QHMyMainViewController.h */,
+				60C84A051CE6F31D00D6569C /* QHMyMainViewController.m */,
+			);
+			name = MyMainViewController;
 			sourceTree = "<group>";
 		};
 		60CD9F581C9EA56800EC354F = {
@@ -229,6 +264,7 @@
 		60F02B801CA938CB0037CE77 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				60C849FD1CE6EE3F00D6569C /* View */,
 				606B00471CE479BF0009099A /* Manager */,
 				608E78E61CE1859D0009E703 /* QHThirdPartyKey.h */,
 				606B004B1CE47CB50009099A /* QHCommonBlock.h */,
@@ -381,14 +417,18 @@
 				606B00461CE479290009099A /* QHUserModel.m in Sources */,
 				603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */,
 				603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */,
+				60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */,
 				606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */,
 				60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */,
 				6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */,
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
+				60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */,
 				606B004F1CE487E60009099A /* QHUserManager.m in Sources */,
+				60C84A031CE6F0F800D6569C /* QHChatRoomViewController.m in Sources */,
 				60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */,
 				60CD9F661C9EA56800EC354F /* main.m in Sources */,
 				606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */,
+				60C84A0A1CE6F46000D6569C /* QHBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
