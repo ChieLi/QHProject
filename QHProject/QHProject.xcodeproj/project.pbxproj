@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */; };
+		600225D41CE9C81200F852BC /* QHLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600225D31CE9C81200F852BC /* QHLaunchViewController.m */; };
 		603975FB1CC512C800E9DC25 /* QHRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */; };
 		603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */; };
 		603976001CC51D6200E9DC25 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		6001A6D51CB4BC22000F2BB3 /* QHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseViewController.h; sourceTree = "<group>"; };
 		6001A6D61CB4BC22000F2BB3 /* QHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseViewController.m; sourceTree = "<group>"; };
+		600225D21CE9C81200F852BC /* QHLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLaunchViewController.h; sourceTree = "<group>"; };
+		600225D31CE9C81200F852BC /* QHLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLaunchViewController.m; sourceTree = "<group>"; };
 		603975F91CC512C800E9DC25 /* QHRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRootTabBarController.h; sourceTree = "<group>"; };
 		603975FA1CC512C800E9DC25 /* QHRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRootTabBarController.m; sourceTree = "<group>"; };
 		603975FC1CC51D6200E9DC25 /* QHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLoginViewController.h; sourceTree = "<group>"; };
@@ -91,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600225D11CE9C7D600F852BC /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				600225D21CE9C81200F852BC /* QHLaunchViewController.h */,
+				600225D31CE9C81200F852BC /* QHLaunchViewController.m */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
 		606B00401CE477690009099A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 		60AD78281CA9428400140298 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				600225D11CE9C7D600F852BC /* Launch */,
 				60C849F61CE6EAAB00D6569C /* Chat */,
 				60C849F51CE6EA6D00D6569C /* Home */,
 				606B005B1CE5C70D0009099A /* User */,
@@ -420,6 +433,7 @@
 				60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */,
 				606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */,
 				60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */,
+				600225D41CE9C81200F852BC /* QHLaunchViewController.m in Sources */,
 				6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */,
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
 				60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */,
