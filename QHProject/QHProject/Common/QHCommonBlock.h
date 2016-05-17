@@ -8,5 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^QHBlock)(void);
 typedef void(^QHBooleanBlock)(BOOL boolean, NSError *error);
 

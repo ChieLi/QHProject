@@ -1,28 +1,22 @@
 //
-//  QHRootTabBarController.m
+//  QHHomeTabBarController.m
 //  QHProject
 //
-//  Created by Chie Li on 16/4/18.
+//  Created by Chie Li on 16/5/16.
 //  Copyright © 2016年 ChieLi. All rights reserved.
 //
 
-#import "QHRootTabBarController.h"
-#import "QHHomeViewController.h"
-#import "QHChatRoomViewController.h"
-#import "QHMyMainViewController.h"
+#import "QHHomeTabBarController.h"
 
-
-@interface QHRootTabBarController ()
+@interface QHHomeTabBarController ()
 
 @end
 
-@implementation QHRootTabBarController
+@implementation QHHomeTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

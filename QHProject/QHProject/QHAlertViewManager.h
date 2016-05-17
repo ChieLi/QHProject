@@ -11,6 +11,6 @@
 
 @interface QHAlertViewManager : NSObject
 
-+ (void)alertViewWithTitle:(NSString *)title message:(NSString *)message onViewController:(UIViewController *)viewContrller;
++ (void)alertViewWithTitle:(NSString *)title message:(NSString *)message onViewController:(UIViewController *)viewContrller block:(QHBlock)block;
 
 @end

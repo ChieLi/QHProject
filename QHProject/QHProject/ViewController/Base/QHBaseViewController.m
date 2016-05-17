@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self initialViews];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - initial
+- (void)initialViews
+{
+    
+}
 /*
 #pragma mark - Navigation
 

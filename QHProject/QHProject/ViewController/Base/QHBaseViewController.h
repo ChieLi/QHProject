@@ -10,4 +10,6 @@
 
 @interface QHBaseViewController : UIViewController
 
+- (void)initialViews;
+
 @end

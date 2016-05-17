@@ -33,12 +33,12 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L4v-uQ-tBt">
-                    <rect key="frame" x="68" y="196" width="115" height="30"/>
+                    <rect key="frame" x="68" y="351" width="115" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzX-gc-BFg">
-                    <rect key="frame" x="286" y="196" width="81" height="30"/>
+                    <rect key="frame" x="286" y="351" width="81" height="30"/>
                     <state key="normal" title="发送验证码"/>
                     <connections>
                         <action selector="didClickSendVerifyCodeButton:" destination="-1" eventType="touchUpInside" id="5Sa-iD-ETg"/>
@@ -57,24 +57,31 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="验证码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYe-1z-vMh">
-                    <rect key="frame" x="8" y="200" width="52" height="21"/>
+                    <rect key="frame" x="8" y="355" width="52" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUL-eh-hWg">
-                    <rect key="frame" x="164" y="346" width="46" height="30"/>
-                    <state key="normal" title="确定"/>
-                    <connections>
-                        <action selector="didClickRegisterButton:" destination="-1" eventType="touchUpInside" id="6Bx-XI-wbQ"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="手机号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3Q-cz-Tug">
                     <rect key="frame" x="8" y="107" width="42" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFG-1D-jxq">
+                    <rect key="frame" x="157" y="455" width="60" height="30"/>
+                    <state key="normal" title="确定验证"/>
+                    <connections>
+                        <action selector="didClickVerifyPhoneButton:" destination="-1" eventType="touchUpInside" id="9gR-AD-ijU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUL-eh-hWg">
+                    <rect key="frame" x="164" y="217" width="46" height="30"/>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="didClickRegisterButton:" destination="-1" eventType="touchUpInside" id="6Bx-XI-wbQ"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

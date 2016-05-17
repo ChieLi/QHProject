@@ -10,11 +10,14 @@
 
 @implementation QHAlertViewManager
 
-+ (void)alertViewWithTitle:(NSString *)title message:(NSString *)message onViewController:(UIViewController *)viewContrller
++ (void)alertViewWithTitle:(NSString *)title message:(NSString *)message onViewController:(UIViewController *)viewContrller block:(QHBlock)block
 {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:(UIAlertControllerStyleAlert)];
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction * _Nonnull action) {
+        if (block) {
+            block();
+        }
         [alertController dismissViewControllerAnimated:YES completion:nil];
     }];
     

@@ -27,7 +27,7 @@ static QHUserModel *sharedUser = nil;
 
 + (void)requestPhoneNumberVerify:(NSString *)phoneNumber block:(QHBooleanBlock)block
 {
-    [AVUser requestMobilePhoneVerify:phoneNumber withBlock:block];
+    [AVOSCloud requestSmsCodeWithPhoneNumber:phoneNumber callback:block];
 }
 
 #pragma mark - register
@@ -43,17 +43,16 @@ static QHUserModel *sharedUser = nil;
 + (void)registerWithPhoneNumber:(NSString *)phoneNumber password:(NSString *)password block:(QHBooleanBlock)block
 {
     AVUser *avUser = [AVUser user];
-    avUser.username = [NSString stringWithFormat:@"auto_%@", phoneNumber];
+    avUser.username = [NSString stringWithFormat:@"user_%@", phoneNumber];
     avUser.password = password;
     avUser.mobilePhoneNumber = phoneNumber;
     
-    [avUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (succeeded) {
-            [AVUser verifyMobilePhone:phoneNumber withBlock:block];
-        } else {
-            block(succeeded, error);
-        }
-    }];
+    [avUser signUpInBackgroundWithBlock:block];
+}
+
++ (void)verifyPhoneNumberWithsmsCode:(NSString *)smsCode block:(QHBooleanBlock)block
+{
+   [AVUser verifyMobilePhone:smsCode withBlock:block];
 }
 
 #pragma mark - login

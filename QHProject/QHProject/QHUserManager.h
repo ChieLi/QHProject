@@ -17,7 +17,9 @@
 + (void)requestPhoneNumberVerify:(NSString *)phoneNumber block:(QHBooleanBlock)block;
 
 + (void)registerWithEmail:(NSString *)email password:(NSString *)password block:(QHBooleanBlock)block;
+
 + (void)registerWithPhoneNumber:(NSString *)phoneNumber password:(NSString *)password block:(QHBooleanBlock)block;
++ (void)verifyPhoneNumberWithsmsCode:(NSString *)smsCode block:(QHBooleanBlock)block;
 
 + (void)loginWithUsername:(NSString *)username password:(NSString *)password block:(QHBooleanBlock)block;
 
