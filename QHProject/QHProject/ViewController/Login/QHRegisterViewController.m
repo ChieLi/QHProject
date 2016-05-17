@@ -80,15 +80,13 @@
 - (IBAction)didClickSendVerifyCodeButton:(id)sender {
     
     if (self.usernameTextField.text.length != 11) {
-        [QHAlertViewManager alertViewWithTitle:@"提示" message:@"请正确输入手机号" onViewController:self block:^{
-            self.usernameTextField.text = @"";
-        }];
+        [self alertViewWithTitle:@"提示" message:@"请正确输入手机号" cancelBlock:nil];
     } else {
         [QHUserManager requestPhoneNumberVerify:self.usernameTextField.text block:^(BOOL boolean, NSError *error) {
             if (boolean) {
-                [QHAlertViewManager alertViewWithTitle:@"提示" message:@"验证码已发送" onViewController:self block:nil];
+                [self alertViewWithTitle:@"提示" message:@"验证码已发送" cancelBlock:nil];
             } else {
-                [QHAlertViewManager alertViewWithTitle:@"警告" message:error.detail onViewController:self block:nil];
+                [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
             }
         }];
     }
@@ -100,6 +98,7 @@
         [self.verifyCodeTimer invalidate];
         self.verifyCodeButton.enabled = YES;
         [self.verifyCodeButton setTitle:@"重新发送" forState:(UIControlStateNormal)];
+        self.restTimeOfVerifyCode = 60;
         return;
     }
     [self.verifyCodeButton setTitle:[NSString stringWithFormat:@"%lds后重新发送", self.restTimeOfVerifyCode] forState:(UIControlStateDisabled)];
@@ -113,27 +112,23 @@
     if (self.type == QHRegisterViewControllerTypeEmail) {
         [QHUserManager registerWithEmail:self.usernameTextField.text password:self.passwordTextField.text block:^(BOOL boolean, NSError *error) {
             if (boolean) {
-                [QHAlertViewManager alertViewWithTitle:@"提示" message:@"注册成功" onViewController:self block:^{
+                [self alertViewWithTitle:@"提示" message:@"注册成功" cancelBlock:^{
                     QHHomeTabBarController *homeTBC = [[QHHomeTabBarController alloc] init];
                     [AppDelegate getAppDelegate].window.rootViewController = homeTBC;
                 }];
             } else {
-                [QHAlertViewManager alertViewWithTitle:@"警告" message:error.detail onViewController:self block:nil];
+                [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
             }
             
         }];
     } else {
         [QHUserManager registerWithPhoneNumber:self.usernameTextField.text password:self.passwordTextField.text block:^(BOOL boolean, NSError *error) {
-            self.verifyCodeButton.enabled = NO;
-            self.verifyCodeTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timingVerifyCode) userInfo:nil repeats:YES];
             if (boolean) {
-                [QHAlertViewManager alertViewWithTitle:@"提示" message:@"已发送验证码" onViewController:self block:nil];
+                [self alertViewWithTitle:@"提示" message:@"已发送验证码" cancelBlock:nil];
                 self.verifyCodeButton.enabled = NO;
-                self.verifyCodeTimer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(timingVerifyCode) userInfo:nil repeats:YES];
-
-                
+                self.verifyCodeTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timingVerifyCode) userInfo:nil repeats:YES];
             } else {
-                [QHAlertViewManager alertViewWithTitle:@"警告" message:error.detail onViewController:self block:nil];
+                [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
             }
         }];
     }
@@ -143,12 +138,12 @@
 - (IBAction)didClickVerifyPhoneButton:(id)sender {
     [QHUserManager verifyPhoneNumberWithsmsCode:self.verifyCodeTextField.text block:^(BOOL boolean, NSError *error) {
         if (boolean) {
-            [QHAlertViewManager alertViewWithTitle:@"提示" message:@"注册成功" onViewController:self block:^{
+            [self alertViewWithTitle:@"提示" message:@"注册成功" cancelBlock:^{
                 QHHomeTabBarController *homeTBC = [[QHHomeTabBarController alloc] init];
                 [AppDelegate getAppDelegate].window.rootViewController = homeTBC;
             }];
         } else {
-            [QHAlertViewManager alertViewWithTitle:@"警告" message:error.detail onViewController:self block:nil];
+            [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
         }
     }];
     

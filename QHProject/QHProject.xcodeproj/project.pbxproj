@@ -16,7 +16,6 @@
 		6040F2881CEABAD600D8FF50 /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6040F2871CEABAD600D8FF50 /* UIViewController+AlertView.m */; };
 		606B00461CE479290009099A /* QHUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00451CE479290009099A /* QHUserModel.m */; };
 		606B004F1CE487E60009099A /* QHUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B004E1CE487E60009099A /* QHUserManager.m */; };
-		606B00551CE4CF580009099A /* QHAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00541CE4CF580009099A /* QHAlertViewManager.m */; };
 		606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00571CE4DF130009099A /* QHRegisterViewController.m */; };
 		606B005A1CE4DF130009099A /* QHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606B00581CE4DF130009099A /* QHRegisterViewController.xib */; };
 		606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00621CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m */; };
@@ -56,8 +55,6 @@
 		606B004B1CE47CB50009099A /* QHCommonBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHCommonBlock.h; sourceTree = "<group>"; };
 		606B004D1CE487E60009099A /* QHUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUserManager.h; sourceTree = "<group>"; };
 		606B004E1CE487E60009099A /* QHUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUserManager.m; sourceTree = "<group>"; };
-		606B00531CE4CF580009099A /* QHAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHAlertViewManager.h; sourceTree = "<group>"; };
-		606B00541CE4CF580009099A /* QHAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHAlertViewManager.m; sourceTree = "<group>"; };
 		606B00561CE4DF130009099A /* QHRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRegisterViewController.h; sourceTree = "<group>"; };
 		606B00571CE4DF130009099A /* QHRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRegisterViewController.m; sourceTree = "<group>"; };
 		606B00581CE4DF130009099A /* QHRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHRegisterViewController.xib; sourceTree = "<group>"; };
@@ -125,6 +122,13 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		601AF0C71CEB73E5001ED6E2 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
 		606B00401CE477690009099A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,8 +144,6 @@
 			children = (
 				606B004D1CE487E60009099A /* QHUserManager.h */,
 				606B004E1CE487E60009099A /* QHUserManager.m */,
-				606B00531CE4CF580009099A /* QHAlertViewManager.h */,
-				606B00541CE4CF580009099A /* QHAlertViewManager.m */,
 			);
 			name = Manager;
 			path = ..;
@@ -189,6 +191,7 @@
 		60AD78281CA9428400140298 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				601AF0C71CEB73E5001ED6E2 /* AddressBook */,
 				60A236F21CEA3241004D49F5 /* Login */,
 				600225D11CE9C7D600F852BC /* Launch */,
 				60C849F61CE6EAAB00D6569C /* Chat */,
@@ -457,7 +460,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606B00551CE4CF580009099A /* QHAlertViewManager.m in Sources */,
 				606B00461CE479290009099A /* QHUserModel.m in Sources */,
 				603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */,
 				60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */,

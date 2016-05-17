@@ -7,6 +7,9 @@
 //
 
 #import "QHHomeTabBarController.h"
+#import "QHHomeViewController.h"
+#import "QHChatRoomViewController.h"
+
 
 @interface QHHomeTabBarController ()
 

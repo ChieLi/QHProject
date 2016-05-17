@@ -13,7 +13,6 @@
 #include "QHCommonBlock.h"
 
 #include "QHUserManager.h"
-#include "QHAlertViewManager.h"
 
 #pragma mark - LeanCloud
 
@@ -26,5 +25,5 @@
 
 #pragma mark - UIView
 #import "UIView+Frame.h"
-
+#import "UIViewController+AlertView.h"
 #import "NSError+LeanClound.h"
