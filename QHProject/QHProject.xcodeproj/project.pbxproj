@@ -11,6 +11,8 @@
 		600225D41CE9C81200F852BC /* QHLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600225D31CE9C81200F852BC /* QHLaunchViewController.m */; };
 		600225D71CE9CC3400F852BC /* QHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600225D61CE9CC3400F852BC /* QHHomeTabBarController.m */; };
 		600225DB1CE9CF6C00F852BC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 600225DA1CE9CF6C00F852BC /* UIView+Frame.m */; };
+		601AF0CA1CEB744A001ED6E2 /* QHAdressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AF0C91CEB744A001ED6E2 /* QHAdressBookViewController.m */; };
+		601AF0D01CEB7537001ED6E2 /* QHMessageHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AF0CF1CEB7537001ED6E2 /* QHMessageHomeViewController.m */; };
 		603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */; };
 		603976001CC51D6200E9DC25 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */; };
 		6040F2881CEABAD600D8FF50 /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6040F2871CEABAD600D8FF50 /* UIViewController+AlertView.m */; };
@@ -23,7 +25,6 @@
 		60A236F11CEA3096004D49F5 /* NSError+LeanClound.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A236F01CEA3096004D49F5 /* NSError+LeanClound.m */; };
 		60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */; };
 		60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C849FF1CE6F0E800D6569C /* QHHomeViewController.m */; };
-		60C84A031CE6F0F800D6569C /* QHChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */; };
 		60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A051CE6F31D00D6569C /* QHMyMainViewController.m */; };
 		60C84A0A1CE6F46000D6569C /* QHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A091CE6F46000D6569C /* QHBaseNavigationController.m */; };
 		60CD9F661C9EA56800EC354F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F651C9EA56800EC354F /* main.m */; };
@@ -32,6 +33,10 @@
 		60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */; };
 		60CD9F741C9EA56800EC354F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F731C9EA56800EC354F /* Assets.xcassets */; };
 		60CD9F771C9EA56800EC354F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */; };
+		60F398781CF3F56B0052D39C /* QHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F398771CF3F56B0052D39C /* QHTabBar.m */; };
+		60F3987B1CF3F5880052D39C /* QHTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F3987A1CF3F5880052D39C /* QHTabBarItem.m */; };
+		60F3987E1CF433D80052D39C /* QHAppSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F3987D1CF433D80052D39C /* QHAppSkinManager.m */; };
+		60F398821CF435200052D39C /* QHAppSkinManager+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F398811CF435200052D39C /* QHAppSkinManager+Color.m */; };
 		F5CA835FF540A29F51B21184 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA65707B552B41AFCCF4066D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +49,10 @@
 		600225D61CE9CC3400F852BC /* QHHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHHomeTabBarController.m; sourceTree = "<group>"; };
 		600225D91CE9CF6C00F852BC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		600225DA1CE9CF6C00F852BC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		601AF0C81CEB744A001ED6E2 /* QHAdressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHAdressBookViewController.h; sourceTree = "<group>"; };
+		601AF0C91CEB744A001ED6E2 /* QHAdressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHAdressBookViewController.m; sourceTree = "<group>"; };
+		601AF0CE1CEB7537001ED6E2 /* QHMessageHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMessageHomeViewController.h; sourceTree = "<group>"; };
+		601AF0CF1CEB7537001ED6E2 /* QHMessageHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHMessageHomeViewController.m; sourceTree = "<group>"; };
 		603975FC1CC51D6200E9DC25 /* QHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHLoginViewController.h; sourceTree = "<group>"; };
 		603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHLoginViewController.m; sourceTree = "<group>"; };
 		603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
@@ -68,8 +77,6 @@
 		60C849F81CE6EAEF00D6569C /* QHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHBaseTableViewController.m; sourceTree = "<group>"; };
 		60C849FE1CE6F0E800D6569C /* QHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHHomeViewController.h; sourceTree = "<group>"; };
 		60C849FF1CE6F0E800D6569C /* QHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHHomeViewController.m; sourceTree = "<group>"; };
-		60C84A011CE6F0F800D6569C /* QHChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHChatRoomViewController.h; sourceTree = "<group>"; };
-		60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHChatRoomViewController.m; sourceTree = "<group>"; };
 		60C84A041CE6F31D00D6569C /* QHMyMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMyMainViewController.h; sourceTree = "<group>"; };
 		60C84A051CE6F31D00D6569C /* QHMyMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHMyMainViewController.m; sourceTree = "<group>"; };
 		60C84A081CE6F46000D6569C /* QHBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHBaseNavigationController.h; sourceTree = "<group>"; };
@@ -83,6 +90,13 @@
 		60CD9F731C9EA56800EC354F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60CD9F761C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60CD9F781C9EA56800EC354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F398761CF3F56B0052D39C /* QHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTabBar.h; sourceTree = "<group>"; };
+		60F398771CF3F56B0052D39C /* QHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTabBar.m; sourceTree = "<group>"; };
+		60F398791CF3F5880052D39C /* QHTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTabBarItem.h; sourceTree = "<group>"; };
+		60F3987A1CF3F5880052D39C /* QHTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTabBarItem.m; sourceTree = "<group>"; };
+		60F3987C1CF433D80052D39C /* QHAppSkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHAppSkinManager.h; sourceTree = "<group>"; };
+		60F3987D1CF433D80052D39C /* QHAppSkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHAppSkinManager.m; sourceTree = "<group>"; };
+		60F398811CF435200052D39C /* QHAppSkinManager+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QHAppSkinManager+Color.m"; sourceTree = "<group>"; };
 		A4164E44331325240F3DD39E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AA641530E0D7F290B397BD1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA65707B552B41AFCCF4066D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +139,8 @@
 		601AF0C71CEB73E5001ED6E2 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				601AF0C81CEB744A001ED6E2 /* QHAdressBookViewController.h */,
+				601AF0C91CEB744A001ED6E2 /* QHAdressBookViewController.m */,
 			);
 			name = AddressBook;
 			sourceTree = "<group>";
@@ -144,6 +160,10 @@
 			children = (
 				606B004D1CE487E60009099A /* QHUserManager.h */,
 				606B004E1CE487E60009099A /* QHUserManager.m */,
+				60F3987F1CF434A10052D39C /* AppSkinManager */,
+				60F3987C1CF433D80052D39C /* QHAppSkinManager.h */,
+				60F3987D1CF433D80052D39C /* QHAppSkinManager.m */,
+				60F398811CF435200052D39C /* QHAppSkinManager+Color.m */,
 			);
 			name = Manager;
 			path = ..;
@@ -240,8 +260,8 @@
 		60C849F61CE6EAAB00D6569C /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				60C84A011CE6F0F800D6569C /* QHChatRoomViewController.h */,
-				60C84A021CE6F0F800D6569C /* QHChatRoomViewController.m */,
+				601AF0CE1CEB7537001ED6E2 /* QHMessageHomeViewController.h */,
+				601AF0CF1CEB7537001ED6E2 /* QHMessageHomeViewController.m */,
 			);
 			name = Chat;
 			sourceTree = "<group>";
@@ -249,6 +269,7 @@
 		60C849FD1CE6EE3F00D6569C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				60F398751CF3F53B0052D39C /* QHTabBar */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -319,6 +340,24 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		60F398751CF3F53B0052D39C /* QHTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				60F398761CF3F56B0052D39C /* QHTabBar.h */,
+				60F398771CF3F56B0052D39C /* QHTabBar.m */,
+				60F398791CF3F5880052D39C /* QHTabBarItem.h */,
+				60F3987A1CF3F5880052D39C /* QHTabBarItem.m */,
+			);
+			name = QHTabBar;
+			sourceTree = "<group>";
+		};
+		60F3987F1CF434A10052D39C /* AppSkinManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppSkinManager;
+			sourceTree = "<group>";
+		};
 		A42C5542887975E4EB8C62D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +409,7 @@
 				TargetAttributes = {
 					60CD9F601C9EA56800EC354F = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XPS4HPVX6B;
 					};
 				};
 			};
@@ -460,10 +500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F3987E1CF433D80052D39C /* QHAppSkinManager.m in Sources */,
 				606B00461CE479290009099A /* QHUserModel.m in Sources */,
 				603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */,
 				60C84A061CE6F31D00D6569C /* QHMyMainViewController.m in Sources */,
 				606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */,
+				601AF0CA1CEB744A001ED6E2 /* QHAdressBookViewController.m in Sources */,
+				60F398781CF3F56B0052D39C /* QHTabBar.m in Sources */,
 				60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */,
 				6040F2881CEABAD600D8FF50 /* UIViewController+AlertView.m in Sources */,
 				600225D41CE9C81200F852BC /* QHLaunchViewController.m in Sources */,
@@ -471,14 +514,16 @@
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
 				60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */,
 				606B004F1CE487E60009099A /* QHUserManager.m in Sources */,
-				60C84A031CE6F0F800D6569C /* QHChatRoomViewController.m in Sources */,
 				600225DB1CE9CF6C00F852BC /* UIView+Frame.m in Sources */,
 				60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */,
 				60CD9F661C9EA56800EC354F /* main.m in Sources */,
 				600225D71CE9CC3400F852BC /* QHHomeTabBarController.m in Sources */,
 				60A236F11CEA3096004D49F5 /* NSError+LeanClound.m in Sources */,
 				606B00641CE5C7FF0009099A /* QHChooseRegisterTypeViewController.m in Sources */,
+				60F3987B1CF3F5880052D39C /* QHTabBarItem.m in Sources */,
+				601AF0D01CEB7537001ED6E2 /* QHMessageHomeViewController.m in Sources */,
 				60C84A0A1CE6F46000D6569C /* QHBaseNavigationController.m in Sources */,
+				60F398821CF435200052D39C /* QHAppSkinManager+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +638,8 @@
 			baseConfigurationReference = A4164E44331325240F3DD39E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/QHProject/Supporting Files/QHProjectPrefixHeader.pch";
 				INFOPLIST_FILE = QHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -606,6 +653,8 @@
 			baseConfigurationReference = AA641530E0D7F290B397BD1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/QHProject/Supporting Files/QHProjectPrefixHeader.pch";
 				INFOPLIST_FILE = QHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

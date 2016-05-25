@@ -80,6 +80,16 @@ static QHUserModel *sharedUser = nil;
     }
 }
 
+#pragma mark - logout
++ (void)logout
+{
+    AVUser *currentUser = [AVUser currentUser];
+    if (currentUser) {
+        [AVUser logOut];
+    }
+}
+
+
 #pragma mark - private method
 + (void)transferAVUser:(AVUser *)avUser toQHUser:(QHUserModel *)qhUser
 {

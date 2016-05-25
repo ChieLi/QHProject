@@ -8,7 +8,8 @@
 
 #import "QHLoginViewController.h"
 #import "QHChooseRegisterTypeViewController.h"
-
+#import "QHHomeTabBarController.h"
+#import "AppDelegate.h"
 @interface QHLoginViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
@@ -31,6 +32,19 @@
 
 #pragma mark - event response
 - (IBAction)clickLoginButton:(id)sender {
+    
+    [QHUserManager loginWithUsername:self.userNameTextField.text password:self.passwordTextField.text block:^(BOOL boolean, NSError *error) {
+        if (boolean) {
+            QHHomeTabBarController *homeTC = [[QHHomeTabBarController alloc] init];
+            [UIView transitionFromView:self.view toView:homeTC.view duration:0.5 options:(UIViewAnimationOptionCurveEaseOut) completion:^(BOOL finished) {
+                [AppDelegate getAppDelegate].window.rootViewController = homeTC;
+            }];
+            
+        } else {
+            [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
+        }
+    }];
+    
 }
 
 - (IBAction)clickRegisterButton:(id)sender {

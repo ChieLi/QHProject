@@ -22,6 +22,6 @@
 + (void)verifyPhoneNumberWithsmsCode:(NSString *)smsCode block:(QHBooleanBlock)block;
 
 + (void)loginWithUsername:(NSString *)username password:(NSString *)password block:(QHBooleanBlock)block;
-
++ (void)logout;
 
 @end
