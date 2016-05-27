@@ -10,4 +10,4 @@
 
 typedef void(^QHBlock)(void);
 typedef void(^QHBooleanBlock)(BOOL boolean, NSError *error);
-
+typedef void(^QHConversationBlock)(AVIMConversation *conversation, NSError *error);

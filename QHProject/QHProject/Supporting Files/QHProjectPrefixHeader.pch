@@ -12,21 +12,26 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
-#pragma mark - QHProject
-#include "QHCommonBlock.h"
-
-#include "QHUserManager.h"
-
 #pragma mark - LeanCloud
 
 #import <AVOSCloud/AVOSCloud.h>
 #import <AVOSCloudIM.h>
+
 #import <AVUser.h>
+#import <AVQuery.h>
+
 
 #pragma mark - other
 #import <Masonry.h>
+
+#pragma mark - QHProject
+#include "QHCommonBlock.h"
+#include "QHUserManager.h"
+#include "QHConversationManager.h"
 
 #pragma mark - UIView
 #import "UIView+Frame.h"
 #import "UIViewController+AlertView.h"
 #import "NSError+LeanClound.h"
+
+

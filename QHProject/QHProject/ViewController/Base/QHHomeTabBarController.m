@@ -9,8 +9,8 @@
 #import "QHHomeTabBarController.h"
 #import "QHBaseNavigationController.h"
 #import "QHHomeViewController.h"
-#import "QHMessageHomeViewController.h"
-#import "QHAdressBookViewController.h"
+#import "QHMessageViewController.h"
+#import "QHContactsViewController.h"
 #import "QHMyMainViewController.h"
 #import "QHTabBar.h"
 #import "QHTabBarItem.h"
@@ -18,8 +18,8 @@
 @interface QHHomeTabBarController () <QHTabBarDelegate>
 
 @property (nonatomic, strong) QHHomeViewController *homeVC;
-@property (nonatomic, strong) QHMessageHomeViewController *messageHomeVC;
-@property (nonatomic, strong) QHAdressBookViewController *addressBookVC;
+@property (nonatomic, strong) QHMessageViewController *messageVC;
+@property (nonatomic, strong) QHContactsViewController *contactsVC;
 @property (nonatomic, strong) QHMyMainViewController *myMainVC;
 
 @end
@@ -29,15 +29,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [[QHConversationManager sharedInstance] openClientWithCallBackBlock:^(BOOL boolean, NSError *error) {
+        if (error) {
+            [self alertViewWithTitle:@"警告" message:error.detail cancelBlock:nil];
+        }
+    }];
+    
     QHBaseNavigationController *homeNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.homeVC];
     
-    QHBaseNavigationController *messageHomeNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.messageHomeVC];
+    QHBaseNavigationController *messageNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.messageVC];
     
-    QHBaseNavigationController *addressBookNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.addressBookVC];
+    QHBaseNavigationController *contactsNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.contactsVC];
     
     QHBaseNavigationController *myMainNC = [[QHBaseNavigationController alloc] initWithRootViewController:self.myMainVC];
     
-    self.viewControllers = @[homeNC, messageHomeNC, addressBookNC, myMainNC];
+    self.viewControllers = @[homeNC, messageNC, contactsNC, myMainNC];
     
 
     
@@ -62,19 +69,22 @@
                                                         normalImage: [UIImage imageNamed:@"CenterButton"]
                                                       selectedImage:[UIImage imageNamed:@"CenterButton"]
                                                                type:(QHTabBarItemTypeAbnormal)];
-    QHTabBarItem *addressBookTabBarItem = [QHTabBarItem tabBarItemWithFrame:CGRectMake(CGRectGetMaxX(centerButton.frame), 0, normalButtonWith, tabBarHeight)
+    QHTabBarItem *contactsTabBarItem = [QHTabBarItem tabBarItemWithFrame:CGRectMake(CGRectGetMaxX(centerButton.frame), 0, normalButtonWith, tabBarHeight)
                                                                       title:@"通讯录"
                                                                 normalImage:nil selectedImage:nil type:(QHTabBarItemTypeNormal)];
-    QHTabBarItem *myMainTabBarItem = [QHTabBarItem tabBarItemWithFrame:CGRectMake(CGRectGetMaxX(addressBookTabBarItem.frame), 0, normalButtonWith, tabBarHeight)
+    QHTabBarItem *myMainTabBarItem = [QHTabBarItem tabBarItemWithFrame:CGRectMake(CGRectGetMaxX(contactsTabBarItem.frame), 0, normalButtonWith, tabBarHeight)
                                                                  title:@"我的"
                                                            normalImage:nil
                                                          selectedImage:nil
                                                                   type:(QHTabBarItemTypeNormal)];
     
     QHTabBar *qhTabBar = [[QHTabBar alloc] initWithFrame:self.tabBar.bounds];
-    qhTabBar.tabBarItems = @[homeTabBarItem, messageHomeTabBarItem, centerButton, addressBookTabBarItem, myMainTabBarItem];
+    qhTabBar.tabBarItems = @[homeTabBarItem, messageHomeTabBarItem, centerButton, contactsTabBarItem, myMainTabBarItem];
     qhTabBar.delegate = self;
     [self.tabBar addSubview:qhTabBar];
+    
+    [[UITabBar appearance]setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -98,20 +108,20 @@
     return _homeVC;
 }
 
-- (QHMessageHomeViewController *)messageHomeVC
+- (QHMessageViewController *)messageVC
 {
-    if (!_messageHomeVC) {
-        _messageHomeVC = [[QHMessageHomeViewController alloc] init];
+    if (!_messageVC) {
+        _messageVC = [[QHMessageViewController alloc] init];
     }
-    return _messageHomeVC;
+    return _messageVC;
 }
 
-- (QHAdressBookViewController *)addressBookVC
+- (QHContactsViewController *)contactsVC
 {
-    if (!_addressBookVC) {
-        _addressBookVC = [[QHAdressBookViewController alloc] init];
+    if (!_contactsVC) {
+        _contactsVC = [[QHContactsViewController alloc] init];
     }
-    return _addressBookVC;
+    return _contactsVC;
 }
 
 - (QHMyMainViewController *)myMainVC

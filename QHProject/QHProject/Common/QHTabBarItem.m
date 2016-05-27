@@ -50,6 +50,7 @@ static const CGFloat kQHTabBarItemTitleSize = 8.f;
 }
 
 - (void)config {
+    self.backgroundColor = [UIColor whiteColor];
     [self setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
     self.titleLabel.font = [UIFont systemFontOfSize:kQHTabBarItemTitleSize];
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;

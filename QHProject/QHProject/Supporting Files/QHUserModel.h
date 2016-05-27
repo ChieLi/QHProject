@@ -10,6 +10,7 @@
 
 @interface QHUserModel : NSObject
 
+@property (nonatomic, copy) NSString *objectId;
 @property (nonatomic, copy) NSString *username;
 @property (nonatomic, copy) NSString *email;
 @property (nonatomic, copy) NSString *phoneNumber;

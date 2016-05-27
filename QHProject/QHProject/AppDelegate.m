@@ -25,6 +25,7 @@
     // Override point for customization after application launch.
     
     [self setUpLeanClound];
+    [AVOSCloud setAllLogsEnabled:YES];
     
     QHLaunchViewController *launchVC = [[QHLaunchViewController alloc] init];
     self.window.rootViewController = launchVC;

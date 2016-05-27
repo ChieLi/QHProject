@@ -7,7 +7,6 @@
 //
 
 #import "QHUserManager.h"
-#import "QHUserModel.h"
 
 static QHUserModel *sharedUser = nil;
 
@@ -90,9 +89,10 @@ static QHUserModel *sharedUser = nil;
 }
 
 
-#pragma mark - private method
+#pragma mark - Utils
 + (void)transferAVUser:(AVUser *)avUser toQHUser:(QHUserModel *)qhUser
 {
+    qhUser.objectId = avUser.objectId;
     qhUser.username = avUser.username;
     qhUser.email = avUser.email;
     qhUser.phoneNumber = avUser.mobilePhoneNumber;

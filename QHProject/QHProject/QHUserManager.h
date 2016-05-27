@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class QHUserModel;
+#import "QHUserModel.h"
+@class AVUser;
 
 @interface QHUserManager : NSObject
 
@@ -23,5 +23,13 @@
 
 + (void)loginWithUsername:(NSString *)username password:(NSString *)password block:(QHBooleanBlock)block;
 + (void)logout;
+
++ (void)transferAVUser:(AVUser *)avUser toQHUser:(QHUserModel *)qhUser;
+
+@end
+
+@interface QHUserManager (Contacts)
+
++ (NSMutableDictionary *)sortedContactsWithAVUserArray:(NSArray *)avUserArray;
 
 @end

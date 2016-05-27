@@ -27,6 +27,7 @@ static const NSInteger kQHTabBarAbnormalItemTag = 222;
     if (item.type == QHTabBarItemTypeNormal) {
         self.currentItem.selected = NO;
         item.selected = YES;
+        self.currentItem = item;
         if ([[AppDelegate getAppDelegate].window.rootViewController isKindOfClass:[UITabBarController class]]) {
             UITabBarController *tabBarController = (UITabBarController *)[AppDelegate getAppDelegate].window.rootViewController;
             tabBarController.selectedIndex = item.tag - kQHTabBarNormalItemTag;
@@ -37,8 +38,6 @@ static const NSInteger kQHTabBarAbnormalItemTag = 222;
             [self.delegate qhTabBarDidClickedAbNormalButton:item];
         }
     }
-    
-    self.currentItem = item;
 }
 
 #pragma mark - setter
