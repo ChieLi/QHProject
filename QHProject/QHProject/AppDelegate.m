@@ -26,9 +26,11 @@
     
     [self setUpLeanClound];
     [AVOSCloud setAllLogsEnabled:YES];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     QHLaunchViewController *launchVC = [[QHLaunchViewController alloc] init];
     self.window.rootViewController = launchVC;
+    
     
     return YES;
 }

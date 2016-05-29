@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 
+@property (nonatomic, strong) QHHomeTabBarController *homeTBC;
+
 
 @end
 
@@ -23,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSLog(@"%@", NSStringFromCGRect(self.view.frame));
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,9 +38,13 @@
     
     [QHUserManager loginWithUsername:self.userNameTextField.text password:self.passwordTextField.text block:^(BOOL boolean, NSError *error) {
         if (boolean) {
-            QHHomeTabBarController *homeTC = [[QHHomeTabBarController alloc] init];
-            [UIView transitionFromView:self.view toView:homeTC.view duration:0.5 options:(UIViewAnimationOptionCurveEaseOut) completion:^(BOOL finished) {
-                [AppDelegate getAppDelegate].window.rootViewController = homeTC;
+//            QHHomeTabBarController *homeTC = [[QHHomeTabBarController alloc] init];
+            self.homeTBC = [[QHHomeTabBarController alloc] init];
+            
+            [UIView transitionFromView:self.view toView:self.homeTBC.view duration:0.5 options:(UIViewAnimationOptionTransitionCrossDissolve) completion:^(BOOL finished) {
+                [AppDelegate getAppDelegate].window.rootViewController = self.homeTBC;
+                [[AppDelegate getAppDelegate].window addSubview:self.homeTBC.view];
+                [self.view removeAllSubViews];
             }];
             
         } else {

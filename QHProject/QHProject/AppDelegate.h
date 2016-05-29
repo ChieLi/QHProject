@@ -22,5 +22,7 @@
 
 + (AppDelegate *)getAppDelegate;
 
+
+
 @end
 

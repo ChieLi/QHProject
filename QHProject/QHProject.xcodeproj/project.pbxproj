@@ -14,6 +14,7 @@
 		603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603975FD1CC51D6200E9DC25 /* QHLoginViewController.m */; };
 		603976001CC51D6200E9DC25 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603975FE1CC51D6200E9DC25 /* QHLoginViewController.xib */; };
 		6040F2881CEABAD600D8FF50 /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6040F2871CEABAD600D8FF50 /* UIViewController+AlertView.m */; };
+		6055259B1CFAE5B600195C1E /* QHHomeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6055259A1CFAE5B600195C1E /* QHHomeContainerViewController.m */; };
 		606B00461CE479290009099A /* QHUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00451CE479290009099A /* QHUserModel.m */; };
 		606B004F1CE487E60009099A /* QHUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B004E1CE487E60009099A /* QHUserManager.m */; };
 		606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B00571CE4DF130009099A /* QHRegisterViewController.m */; };
@@ -40,6 +41,9 @@
 		60D880C41CF6FF84001D30F3 /* QHConversationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880C31CF6FF84001D30F3 /* QHConversationManager.m */; };
 		60D880CE1CF71666001D30F3 /* QHSendMessageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880CD1CF71666001D30F3 /* QHSendMessageBar.m */; };
 		60D880D01CF71688001D30F3 /* QHSendMessageBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D880CF1CF71688001D30F3 /* QHSendMessageBar.xib */; };
+		60D880D31CF86C9B001D30F3 /* QHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880D21CF86C9B001D30F3 /* QHAPIClient.m */; };
+		60D880D81CF87C0B001D30F3 /* QHAPIClient+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880D71CF87C0B001D30F3 /* QHAPIClient+User.m */; };
+		60D880DB1CF87F59001D30F3 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880DA1CF87F59001D30F3 /* NSMutableDictionary+Safe.m */; };
 		60F398781CF3F56B0052D39C /* QHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F398771CF3F56B0052D39C /* QHTabBar.m */; };
 		60F3987B1CF3F5880052D39C /* QHTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F3987A1CF3F5880052D39C /* QHTabBarItem.m */; };
 		60F3987E1CF433D80052D39C /* QHAppSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F3987D1CF433D80052D39C /* QHAppSkinManager.m */; };
@@ -62,6 +66,8 @@
 		603976011CC52AC900E9DC25 /* QHProjectPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHProjectPrefixHeader.pch; sourceTree = "<group>"; };
 		6040F2861CEABAD600D8FF50 /* UIViewController+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertView.h"; sourceTree = "<group>"; };
 		6040F2871CEABAD600D8FF50 /* UIViewController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertView.m"; sourceTree = "<group>"; };
+		605525991CFAE5B600195C1E /* QHHomeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHHomeContainerViewController.h; sourceTree = "<group>"; };
+		6055259A1CFAE5B600195C1E /* QHHomeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHHomeContainerViewController.m; sourceTree = "<group>"; };
 		606B00441CE479290009099A /* QHUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHUserModel.h; sourceTree = "<group>"; };
 		606B00451CE479290009099A /* QHUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHUserModel.m; sourceTree = "<group>"; };
 		606B004B1CE47CB50009099A /* QHCommonBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHCommonBlock.h; sourceTree = "<group>"; };
@@ -109,6 +115,13 @@
 		60D880CC1CF71666001D30F3 /* QHSendMessageBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSendMessageBar.h; sourceTree = "<group>"; };
 		60D880CD1CF71666001D30F3 /* QHSendMessageBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSendMessageBar.m; sourceTree = "<group>"; };
 		60D880CF1CF71688001D30F3 /* QHSendMessageBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHSendMessageBar.xib; sourceTree = "<group>"; };
+		60D880D11CF86C9B001D30F3 /* QHAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHAPIClient.h; sourceTree = "<group>"; };
+		60D880D21CF86C9B001D30F3 /* QHAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHAPIClient.m; sourceTree = "<group>"; };
+		60D880D51CF87469001D30F3 /* QHAPIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHAPIDefine.h; sourceTree = "<group>"; };
+		60D880D61CF87C0B001D30F3 /* QHAPIClient+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QHAPIClient+User.h"; sourceTree = "<group>"; };
+		60D880D71CF87C0B001D30F3 /* QHAPIClient+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QHAPIClient+User.m"; sourceTree = "<group>"; };
+		60D880D91CF87F59001D30F3 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		60D880DA1CF87F59001D30F3 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
 		60F398761CF3F56B0052D39C /* QHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTabBar.h; sourceTree = "<group>"; };
 		60F398771CF3F56B0052D39C /* QHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHTabBar.m; sourceTree = "<group>"; };
 		60F398791CF3F5880052D39C /* QHTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHTabBarItem.h; sourceTree = "<group>"; };
@@ -153,6 +166,8 @@
 				60A236F01CEA3096004D49F5 /* NSError+LeanClound.m */,
 				6040F2861CEABAD600D8FF50 /* UIViewController+AlertView.h */,
 				6040F2871CEABAD600D8FF50 /* UIViewController+AlertView.m */,
+				60D880D91CF87F59001D30F3 /* NSMutableDictionary+Safe.h */,
+				60D880DA1CF87F59001D30F3 /* NSMutableDictionary+Safe.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -242,6 +257,8 @@
 				60C84A091CE6F46000D6569C /* QHBaseNavigationController.m */,
 				600225D51CE9CC3400F852BC /* QHHomeTabBarController.h */,
 				600225D61CE9CC3400F852BC /* QHHomeTabBarController.m */,
+				605525991CFAE5B600195C1E /* QHHomeContainerViewController.h */,
+				6055259A1CFAE5B600195C1E /* QHHomeContainerViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -388,9 +405,22 @@
 			name = UserManager;
 			sourceTree = "<group>";
 		};
+		60D880D41CF86CA5001D30F3 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				60D880D11CF86C9B001D30F3 /* QHAPIClient.h */,
+				60D880D21CF86C9B001D30F3 /* QHAPIClient.m */,
+				60D880D61CF87C0B001D30F3 /* QHAPIClient+User.h */,
+				60D880D71CF87C0B001D30F3 /* QHAPIClient+User.m */,
+				60D880D51CF87469001D30F3 /* QHAPIDefine.h */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
 		60F02B801CA938CB0037CE77 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				60D880D41CF86CA5001D30F3 /* APIClient */,
 				600225D81CE9CF4B00F852BC /* Category */,
 				60C849FD1CE6EE3F00D6569C /* View */,
 				606B00471CE479BF0009099A /* Manager */,
@@ -566,6 +596,7 @@
 			files = (
 				60F3987E1CF433D80052D39C /* QHAppSkinManager.m in Sources */,
 				606B00461CE479290009099A /* QHUserModel.m in Sources */,
+				6055259B1CFAE5B600195C1E /* QHHomeContainerViewController.m in Sources */,
 				603975FF1CC51D6200E9DC25 /* QHLoginViewController.m in Sources */,
 				60D880AD1CF59B9E001D30F3 /* QHContactsViewController.m in Sources */,
 				60D880B81CF5C41E001D30F3 /* QHTableView.m in Sources */,
@@ -573,13 +604,16 @@
 				606B00591CE4DF130009099A /* QHRegisterViewController.m in Sources */,
 				60F398781CF3F56B0052D39C /* QHTabBar.m in Sources */,
 				60C849F91CE6EAEF00D6569C /* QHBaseTableViewController.m in Sources */,
+				60D880D81CF87C0B001D30F3 /* QHAPIClient+User.m in Sources */,
 				6040F2881CEABAD600D8FF50 /* UIViewController+AlertView.m in Sources */,
+				60D880D31CF86C9B001D30F3 /* QHAPIClient.m in Sources */,
 				60D880BF1CF5FF6D001D30F3 /* NSString+PinYin.m in Sources */,
 				600225D41CE9C81200F852BC /* QHLaunchViewController.m in Sources */,
 				6001A6D71CB4BC22000F2BB3 /* QHBaseViewController.m in Sources */,
 				60CD9F691C9EA56800EC354F /* AppDelegate.m in Sources */,
 				60C84A001CE6F0E800D6569C /* QHHomeViewController.m in Sources */,
 				606B004F1CE487E60009099A /* QHUserManager.m in Sources */,
+				60D880DB1CF87F59001D30F3 /* NSMutableDictionary+Safe.m in Sources */,
 				60D880B11CF5B69C001D30F3 /* QHMessageViewController.m in Sources */,
 				60D880C41CF6FF84001D30F3 /* QHConversationManager.m in Sources */,
 				600225DB1CE9CF6C00F852BC /* UIView+Frame.m in Sources */,

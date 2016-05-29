@@ -7,6 +7,7 @@
 //
 
 #import "QHUserManager.h"
+#import "QHAPIClient+User.h"
 
 static QHUserModel *sharedUser = nil;
 
@@ -59,13 +60,45 @@ static QHUserModel *sharedUser = nil;
 {
     if ([username containsString:@"@"]) {
         // 邮箱登录
-        [AVUser logInWithUsernameInBackground:username password:password block:^(AVUser *user, NSError *error) {
-            if (error) {
-                block(NO, error);
-            } else {
-                block(YES, nil);
-            }
+//        [AVUser logInWithUsernameInBackground:username password:password block:^(AVUser *user, NSError *error) {
+//            if (error) {
+//                block(NO, error);
+//            } else {
+//                block(YES, nil);
+//            }
+//        }];
+        [[QHAPIClient shareInstance] getUserLoginWithEmail:username password:password success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            
+            NSLog(@"operation = %@", operation);
+            NSLog(@"response = %@", responseObject);
+            
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            
+            NSLog(@"operation = %@", operation);
+            NSLog(@"error = %@", error.userInfo);
+            
         }];
+        
+        
+        
+//        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api.leancloud.cn/1.1/login?username=liqianhui0522@163.com&password=123"]];
+//        request.HTTPMethod = @"GET";
+//        request.allHTTPHeaderFields = @{@"X-LC-Id":@"WY9DEy6AhshM9l0iYoyL2msS-gzGzoHsz",
+//                                        @"X-LC-Key":@"7MmIIKXOekRrhRsdaJS7VPPe"};
+//        
+//        NSURLSessionDataTask *dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//            
+//            if (data) {
+//                NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingAllowFragments) error:nil];
+//                NSLog(@"%@", dic);
+//            } else {
+//                NSLog(@"%@", error);
+//            }
+//            
+//        }];
+//        
+//        [dataTask resume];
+    
     } else {
         // 手机号登录
         [AVUser logInWithMobilePhoneNumberInBackground:username password:password block:^(AVUser *user, NSError *error) {

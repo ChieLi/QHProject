@@ -10,6 +10,9 @@
 #import "QHChatViewController.h"
 #import "AppDelegate.h"
 #import "QHHomeTabBarController.h"
+#import "QHBaseNavigationController.h"
+#import "QHLoginViewController.h"
+
 
 @interface QHContactsViewController ()
 
@@ -24,6 +27,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self fetchData];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登出" style:(UIBarButtonItemStyleDone) target:self action:@selector(didClickLogout:)];
 }
 
 - (void)initialViews
@@ -108,6 +112,20 @@
         
     }];
 }
+
+#pragma mark - response event
+- (void)didClickLogout:(id)sender
+{
+    [QHUserManager logout];
+    QHLoginViewController *loginVC = [[QHLoginViewController alloc] init];
+    QHBaseNavigationController *loginNC = [[QHBaseNavigationController alloc] initWithRootViewController:loginVC];
+    [UIView transitionFromView:self.view toView:loginNC.view duration:0.5 options:(UIViewAnimationOptionTransitionCrossDissolve) completion:^(BOOL finished) {
+        [AppDelegate getAppDelegate].window.rootViewController = loginNC;
+        [[AppDelegate getAppDelegate].window addSubview:loginNC.view];
+        [self.view removeAllSubViews];
+    }];
+}
+
 #pragma mark - property getter
 - (NSMutableArray *)firstLetterArray
 {
