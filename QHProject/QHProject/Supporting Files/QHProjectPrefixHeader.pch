@@ -40,4 +40,5 @@
 #import "UIViewController+AlertView.h"
 #import "NSError+LeanClound.h"
 #import "NSMutableDictionary+Safe.h"
+#import "UIButton+HitEdge.h"
 

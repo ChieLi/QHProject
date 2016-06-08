@@ -38,6 +38,7 @@
 		60CD9F6F1C9EA56800EC354F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F6D1C9EA56800EC354F /* Main.storyboard */; };
 		60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CD9F701C9EA56800EC354F /* QHProject.xcdatamodeld */; };
 		60CD9F771C9EA56800EC354F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD9F751C9EA56800EC354F /* LaunchScreen.storyboard */; };
+		60D7E6B21D08260B0024EBF1 /* UIButton+HitEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7E6B11D08260B0024EBF1 /* UIButton+HitEdge.m */; };
 		60D880AD1CF59B9E001D30F3 /* QHContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880AC1CF59B9E001D30F3 /* QHContactsViewController.m */; };
 		60D880B11CF5B69C001D30F3 /* QHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880B01CF5B69C001D30F3 /* QHMessageViewController.m */; };
 		60D880B81CF5C41E001D30F3 /* QHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D880B71CF5C41E001D30F3 /* QHTableView.m */; };
@@ -118,6 +119,8 @@
 		60CD9F711C9EA56800EC354F /* QHProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QHProject.xcdatamodel; sourceTree = "<group>"; };
 		60CD9F761C9EA56800EC354F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60CD9F781C9EA56800EC354F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D7E6B01D08260B0024EBF1 /* UIButton+HitEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitEdge.h"; sourceTree = "<group>"; };
+		60D7E6B11D08260B0024EBF1 /* UIButton+HitEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitEdge.m"; sourceTree = "<group>"; };
 		60D880AB1CF59B9E001D30F3 /* QHContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHContactsViewController.h; sourceTree = "<group>"; };
 		60D880AC1CF59B9E001D30F3 /* QHContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHContactsViewController.m; sourceTree = "<group>"; };
 		60D880AF1CF5B69C001D30F3 /* QHMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMessageViewController.h; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				60D880DA1CF87F59001D30F3 /* NSMutableDictionary+Safe.m */,
 				60F1CE611D02F0EF00F6FC26 /* UIColor+HexColor.h */,
 				60F1CE621D02F0EF00F6FC26 /* UIColor+HexColor.m */,
+				60D7E6B01D08260B0024EBF1 /* UIButton+HitEdge.h */,
+				60D7E6B11D08260B0024EBF1 /* UIButton+HitEdge.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -669,6 +674,7 @@
 				60D880C41CF6FF84001D30F3 /* QHConversationManager.m in Sources */,
 				600225DB1CE9CF6C00F852BC /* UIView+Frame.m in Sources */,
 				60CD9F721C9EA56800EC354F /* QHProject.xcdatamodeld in Sources */,
+				60D7E6B21D08260B0024EBF1 /* UIButton+HitEdge.m in Sources */,
 				60D880CE1CF71666001D30F3 /* QHSendMessageBar.m in Sources */,
 				60D880BC1CF5F888001D30F3 /* QHUserManager+Contacts.m in Sources */,
 				60CD9F661C9EA56800EC354F /* main.m in Sources */,
