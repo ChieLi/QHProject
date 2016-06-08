@@ -9,16 +9,34 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
 
-typedef void (^SuccessBlock)(AFHTTPRequestOperation *operation, id responseObject);
-typedef void (^FailureBlock)(AFHTTPRequestOperation *operation, NSError *error);
+typedef void (^SuccessBlock)(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject);
+typedef void (^ProgressBlock)(NSProgress * _Nonnull downloadProgress);
+typedef void (^FailureBlock)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error);
 
 @interface QHAPIClient : NSObject
 
-+ (instancetype)shareInstance;
++ (nonnull instancetype)shareInstance;
 
 - (void)cancelAllRequests;
 
-- (id)get:(NSString *)URLString parameters:(NSDictionary *)parameters success:(SuccessBlock)success failure:(FailureBlock)failure;
-- (id)post:(NSString *)URLString parameters:(NSDictionary *)parameters success:(SuccessBlock)success failure:(FailureBlock)failure;
+- (nullable id)get:(nullable NSString *)URLString
+        parameters:(nullable NSDictionary *)parameters
+          progress:(nullable ProgressBlock)progress
+           success:(nullable SuccessBlock)success
+           failure:(nullable FailureBlock)failure;
+
+- (nullable id)post:(nullable NSString *)URLString
+         parameters:(nullable NSDictionary *)parameters
+           progress:(nullable ProgressBlock)progress
+            success:(nullable SuccessBlock)success
+            failure:(nullable FailureBlock)failure;
+
+- (nullable id)masterPost:(nullable NSString *)URLString
+               parameters:(nullable NSDictionary *)parameters
+                 progress:(nullable ProgressBlock)progress
+                  success:(nullable SuccessBlock)success
+                  failure:(nullable FailureBlock)failure;
+
+
 
 @end

@@ -14,7 +14,7 @@
 {
     NSDictionary *params = @{@"username":email,
                              @"password":password};
-    return [self get:@"/1.1/login" parameters:params success:success failure:failure];
+    return [self get:@"/1.1/login" parameters:params progress:nil success:success failure:failure];
 }
 
 

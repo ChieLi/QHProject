@@ -11,7 +11,9 @@
 
 @interface QHAPIClient ()
 
-@property (nonatomic, strong) AFHTTPRequestOperationManager *requestManager;
+@property (nonatomic, strong) AFHTTPSessionManager *getSessionManager;
+@property (nonatomic, strong) AFHTTPSessionManager *postSessionManager;
+@property (nonatomic, strong) AFHTTPSessionManager *masterPostSessionManager;
 
 @end
 
@@ -30,15 +32,23 @@
 - (instancetype)init
 {
     if (self = [super init]) {
-        self.requestManager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:kQHBaseURL]];
-//        self.requestManager.responseSerializer = [AFHTTPResponseSerializer serializer];
-//        self.requestManager.responseSerializer = [AFJSONResponseSerializer serializer];
-        [self.requestManager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"text/html", @"text/json", @"application/json", @"application/vnd.apple.pkpass", nil]];
         
-        [self.requestManager.requestSerializer setValue:kQHAPIId forHTTPHeaderField:@"X-LC-Id"];
-        [self.requestManager.requestSerializer setValue:kQHAPIKey forHTTPHeaderField:@"X-LC-Key:"];
-//        [self.requestManager.requestSerializer setValue:@"text/html" forHTTPHeaderField:@"application/json"];
-        [self.requestManager.requestSerializer setTimeoutInterval:kQHAPICLientTimeOut];
+        self.getSessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kQHBaseURL]];
+        [self.getSessionManager.requestSerializer setValue:kQHAPIId forHTTPHeaderField:@"X-LC-Id"];
+        [self.getSessionManager.requestSerializer setValue:kQHAPIKey forHTTPHeaderField:@"X-LC-Key"];
+        
+        self.postSessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kQHBaseURL]];
+        self.postSessionManager.requestSerializer = [AFJSONRequestSerializer serializer];
+        [self.postSessionManager.requestSerializer setValue:kQHAPIId forHTTPHeaderField:@"X-LC-Id"];
+        [self.postSessionManager.requestSerializer setValue:kQHAPIKey forHTTPHeaderField:@"X-LC-Key"];
+        [self.postSessionManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        
+        self.masterPostSessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kQHBaseURL]];
+        self.masterPostSessionManager.requestSerializer = [AFJSONRequestSerializer serializer];
+        [self.masterPostSessionManager.requestSerializer setValue:kQHAPIId forHTTPHeaderField:@"X-LC-Id"];
+        [self.masterPostSessionManager.requestSerializer setValue:kQHAPIMasterKey forHTTPHeaderField:@"X-LC-Key"];
+        [self.masterPostSessionManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        
         
     }
     return self;
@@ -46,29 +56,23 @@
 
 - (void)cancelAllRequests
 {
-    [self.requestManager.operationQueue cancelAllOperations];
+    [self.getSessionManager.operationQueue cancelAllOperations];
+    [self.postSessionManager.operationQueue cancelAllOperations];
 }
 
-- (id)get:(NSString *)URLString parameters:(NSDictionary *)parameters success:(SuccessBlock)success failure:(FailureBlock)failure
+- (id)get:(NSString *)URLString parameters:(NSDictionary *)parameters progress:(ProgressBlock)progress success:(SuccessBlock)success failure:(FailureBlock)failure
 {
-    return [self.requestManager GET:URLString parameters:parameters success:success failure:failure];
-    
-    
+    return [self.getSessionManager GET:URLString parameters:parameters progress:progress success:success failure:failure];
 }
 
-- (id)post:(NSString *)URLString parameters:(NSDictionary *)parameters success:(SuccessBlock)success failure:(FailureBlock)failure
+- (id)post:(NSString *)URLString parameters:(NSDictionary *)parameters progress:(ProgressBlock)progress success:(SuccessBlock)success failure:(FailureBlock)failure
 {
-    return [self.requestManager POST:URLString parameters:parameters success:success failure:failure];
+    return [self.postSessionManager POST:URLString parameters:parameters progress:progress success:success failure:failure];
 }
 
-#pragma mark - private
-- (NSString*)dictionaryToJson:(NSDictionary *)dic
+- (id)masterPost:(NSString *)URLString parameters:(NSDictionary *)parameters progress:(ProgressBlock)progress success:(SuccessBlock)success failure:(FailureBlock)failure
 {
-    NSError *parseError = nil;
-    
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
-    
-    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    
+    return [self.masterPostSessionManager POST:URLString parameters:parameters progress:progress success:success failure:failure];
 }
+
 @end

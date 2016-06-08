@@ -19,11 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
 }
 
 - (void)initialViews {
     [super initialViews];
     
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,10 +61,6 @@
         _tableView = [[QHTableView alloc] initWithFrame:CGRectZero style:(UITableViewStyleGrouped)];
         _tableView.dataSource = self;
         _tableView.delegate = self;
-        [self.view addSubview:_tableView];
-        [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view);
-        }];
     }
     return _tableView;
 }

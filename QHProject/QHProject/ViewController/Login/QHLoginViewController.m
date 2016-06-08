@@ -12,6 +12,8 @@
 #import "AppDelegate.h"
 @interface QHLoginViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 
@@ -26,6 +28,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     NSLog(@"%@", NSStringFromCGRect(self.view.frame));
+}
+
+- (void)initialViews
+{
+    [super initialViews];
+    self.backgroundImageView.backgroundColor = [QHAppSkinManager defaultAppSkinManager].contentColorBlue3;
 }
 
 - (void)didReceiveMemoryWarning {

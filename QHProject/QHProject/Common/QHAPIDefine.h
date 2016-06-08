@@ -11,6 +11,7 @@
 
 #define kQHAPIId @"WY9DEy6AhshM9l0iYoyL2msS-gzGzoHsz"
 #define kQHAPIKey @"7MmIIKXOekRrhRsdaJS7VPPe"
+#define kQHAPIMasterKey @"0fezuNl9QVcwCMJotRsV9xBw,master"
 
 #define kQHAPICLientTimeOut 30
 #define kQHBaseURL @"https://api.leancloud.cn"

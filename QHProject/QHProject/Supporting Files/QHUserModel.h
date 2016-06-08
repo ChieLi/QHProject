@@ -6,9 +6,9 @@
 //  Copyright © 2016年 ChieLi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <JSONModel.h>
 
-@interface QHUserModel : NSObject
+@interface QHUserModel : JSONModel
 
 @property (nonatomic, copy) NSString *objectId;
 @property (nonatomic, copy) NSString *username;

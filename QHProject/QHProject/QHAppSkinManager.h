@@ -16,4 +16,15 @@
 
 @interface QHAppSkinManager (Color)
 
+- (UIColor *)contentColorBlue1;
+- (UIColor *)contentColorBlue2;
+- (UIColor *)contentColorBlue3;
+- (UIColor *)contentColorBlue4;
+- (UIColor *)contentColorBlue5;
+- (UIColor *)contentColorBlue6;
+
+- (UIColor *)contentColorYellow1;
+- (UIColor *)contentColorYellow2;
+
+
 @end

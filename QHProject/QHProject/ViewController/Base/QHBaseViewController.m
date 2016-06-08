@@ -8,16 +8,23 @@
 
 #import "QHBaseViewController.h"
 
-@interface QHBaseViewController ()
+@interface QHBaseViewController ()<QHConversationDelegate>
 
 @end
 
 @implementation QHBaseViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self initialViews];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[QHConversationManager sharedInstance] changeConversationDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning {

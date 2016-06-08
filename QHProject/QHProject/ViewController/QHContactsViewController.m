@@ -7,11 +7,11 @@
 //
 
 #import "QHContactsViewController.h"
-#import "QHChatViewController.h"
 #import "AppDelegate.h"
 #import "QHHomeTabBarController.h"
 #import "QHBaseNavigationController.h"
 #import "QHLoginViewController.h"
+#import "QHConversationViewController.h"
 
 
 @interface QHContactsViewController ()
@@ -52,7 +52,7 @@
     WS(weakSelf)
     AVQuery *contactsQuery = [AVUser query];
     [contactsQuery addAscendingOrder:@"username"];
-    [contactsQuery whereKey:@"objectId" notEqualTo:[QHUserManager currentUser].objectId];
+//    [contactsQuery whereKey:@"objectId" notEqualTo:[QHUserManager currentUser].objectId];
     [contactsQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             NSMutableDictionary *tempDic = [QHUserManager sortedContactsWithAVUserArray:objects];
@@ -93,9 +93,20 @@
 {
     
     QHUserModel *contact = self.contactsArray[indexPath.section][indexPath.row];
-    NSArray *userIds = @[[QHUserManager currentUser].objectId, contact.objectId];
+    NSArray *membersIds = @[[QHUserManager currentUser].objectId, contact.objectId];
 #warning -这里要测试检查是否造成循环引用
-    [[QHConversationManager sharedInstance] findConversationWithUserIds:userIds type:(QHConversationTypeSingle) callBackBlock:^(AVIMConversation *conversation, NSError *error) {
+    
+//    [[QHConversationManager sharedInstance] findConversationWithMembersIds:membersIds type:(QHConversationTypeSingle) block:^(QHConversationModel *conversation, NSError *error) {
+//        if (conversation.objectId) {
+//            QHConversationViewController *conversationVC = [[QHConversationViewController alloc] initWithConversation:conversation];
+//            [self presentViewController:conversationVC animated:YES completion:^{
+//                QHHomeTabBarController *tabBarController =(QHHomeTabBarController *)[AppDelegate getAppDelegate].window.rootViewController;
+//                tabBarController.selectedIndex = 0;
+//            }];
+//        }
+//    }];
+//    
+    [[QHConversationManager sharedInstance] findConversationWithUserIds:membersIds type:(QHConversationTypeSingle) callBackBlock:^(AVIMConversation *conversation, NSError *error) {
         if (error) {
             NSLog(@"%@", error);
             
@@ -103,9 +114,9 @@
             
             return ;
         }
+        QHConversationViewController *conversationVC = [[QHConversationViewController alloc] initWithAVConvesation:conversation];
         
-        QHChatViewController *chatVC = [[QHChatViewController alloc] initWithConversation:conversation];
-        [self presentViewController:chatVC animated:YES completion:^{
+        [self presentViewController:conversationVC animated:YES completion:^{
             QHHomeTabBarController *tabBarController =(QHHomeTabBarController *)[AppDelegate getAppDelegate].window.rootViewController;
             tabBarController.selectedIndex = 0;
         }];

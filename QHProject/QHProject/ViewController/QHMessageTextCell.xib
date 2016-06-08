@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="QHMessageTextCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5K-4b-shA">
+                        <rect key="frame" x="5" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Y4N-Oo-wjz"/>
+                            <constraint firstAttribute="height" constant="50" id="ZuR-M3-zAp"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iuV-nJ-0Ib">
+                        <rect key="frame" x="265" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="6Ca-Cq-4ZH"/>
+                            <constraint firstAttribute="height" constant="50" id="Nxa-mT-iHQ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C0d-ZZ-x6t">
+                        <rect key="frame" x="60" y="5" width="200" height="83.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iuV-nJ-0Ib" firstAttribute="leading" secondItem="C0d-ZZ-x6t" secondAttribute="trailing" constant="5" id="8KH-P3-SUi"/>
+                    <constraint firstItem="d5K-4b-shA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="8XV-Nv-cDw"/>
+                    <constraint firstItem="iuV-nJ-0Ib" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Aj7-aF-vFX"/>
+                    <constraint firstAttribute="trailing" secondItem="iuV-nJ-0Ib" secondAttribute="trailing" constant="5" id="Efy-ME-wSe"/>
+                    <constraint firstItem="C0d-ZZ-x6t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="iAO-gw-JxZ"/>
+                    <constraint firstItem="C0d-ZZ-x6t" firstAttribute="leading" secondItem="d5K-4b-shA" secondAttribute="trailing" constant="5" id="smD-m4-Evd"/>
+                    <constraint firstItem="d5K-4b-shA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="tBl-0e-FR2"/>
+                    <constraint firstAttribute="bottom" secondItem="C0d-ZZ-x6t" secondAttribute="bottom" constant="5" id="urX-jp-wmk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="268" y="250"/>
+        </tableViewCell>
+    </objects>
+</document>

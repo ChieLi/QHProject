@@ -25,7 +25,13 @@
 #import <Masonry.h>
 
 #pragma mark - QHProject
+#include "QHConversationModel.h"
+#include "QHMessageModel.h"
+
 #include "QHCommonBlock.h"
+
+#include "QHAppSkinManager.h"
+#include "QHFileManager.h"
 #include "QHUserManager.h"
 #include "QHConversationManager.h"
 
