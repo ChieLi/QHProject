@@ -9,7 +9,7 @@
 #import "QHConversationViewController.h"
 #import "QHConversationManager.h"
 #import "QHSendMessageBar.h"
-
+#import "UIViewController+Keyboard.h"
 @interface QHConversationViewController ()<QHSendMessageBarDelegate, QHConversationDelegate>
 
 
@@ -31,9 +31,15 @@
     return self;
 }
 
+- (void)dealloc
+{
+    [self removeKeyboardNotification];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self registerKeyboard];
     
 }
 
@@ -44,12 +50,9 @@
     self.tableView.contentInset = UIEdgeInsetsMake(0, 0, -44, 0);
     [self.view addSubview:self.sendMessageBar];
     [self.sendMessageBar mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.equalTo(self.view);
-        make.bottom.mas_equalTo(self.view.mas_bottom);
+        make.left.right.bottom.equalTo(self.view);
         make.height.mas_equalTo(44);
     }];
-
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -97,7 +100,38 @@
         [self.tableView reloadData];
     }
 }
-
+#pragma mark - private method
+- (void)registerKeyboard
+{
+    WS(weakSelf)
+    [self registerKeyboardNotificationWithShowBlock:^(NSTimeInterval animationDuration, CGFloat keyboardHeight) {
+        
+        [weakSelf.tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
+            make.height.width.centerX.equalTo(self.view);
+            make.centerY.mas_equalTo(self.view).offset(-keyboardHeight);
+        }];
+        [weakSelf.sendMessageBar mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.bottom.mas_equalTo(self.view).offset(-keyboardHeight);
+        }];
+        
+        [UIView animateWithDuration:animationDuration animations:^{
+            [weakSelf.view layoutIfNeeded];
+        }];
+        
+    } hideBlock:^(NSTimeInterval animationDuration, CGFloat keyboardHeight) {
+        
+        [weakSelf.tableView mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.centerY.equalTo(self.view);
+        }];
+        [weakSelf.sendMessageBar mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.bottom.equalTo(self.view);
+        }];
+        
+        [UIView animateWithDuration:animationDuration animations:^{
+            [weakSelf.view layoutIfNeeded];
+        }];
+    }];
+}
 
 #pragma mark - property getter
 - (QHSendMessageBar *)sendMessageBar

@@ -61,6 +61,7 @@
         _tableView = [[QHTableView alloc] initWithFrame:CGRectZero style:(UITableViewStyleGrouped)];
         _tableView.dataSource = self;
         _tableView.delegate = self;
+        _tableView.qhDelegate = self;
     }
     return _tableView;
 }

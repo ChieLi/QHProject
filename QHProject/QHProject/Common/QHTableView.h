@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol QHTableViewDelegate <NSObject>
+
+- (void)qhTableViewHeaderViewRefreshBegin:(UITableView *)tableView;
+- (void)qhTableViewFooterViewRefreshBegin:(UITableView *)tableView;
+
+@end
+
 @interface QHTableView : UITableView
+
+@property (nonatomic, weak) id<QHTableViewDelegate> qhDelegate;
 
 @end

@@ -24,9 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [self setUpLeanClound];
-    [AVOSCloud setAllLogsEnabled:YES];
-    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [self setUpWithLeanCloundWithLaunchOptions:launchOptions];
     
     QHLaunchViewController *launchVC = [[QHLaunchViewController alloc] init];
     self.window.rootViewController = launchVC;
@@ -59,11 +57,23 @@
     [self saveContext];
 }
 
-#pragma mark - private method
+#pragma mark - Notification
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    [AVOSCloudIM handleRemoteNotificationsWithDeviceToken:deviceToken];
+    
+    AVInstallation *currentInstallation = [AVInstallation currentInstallation];
+    [currentInstallation addUniqueObject:@"Giants" forKey:@"channels"];
+    [currentInstallation saveInBackground];
+}
 
-- (void)setUpLeanClound
+#pragma mark - private method
+- (void)setUpWithLeanCloundWithLaunchOptions:(NSDictionary *)launchOptions
 {
     [AVOSCloud setApplicationId:LEAN_CLOUND_APP_ID clientKey:LEAN_CLOUND_APP_KEY];
+    [AVOSCloudIM registerForRemoteNotification];
+    [AVOSCloud setAllLogsEnabled:YES];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 }
 
 #pragma mark - Core Data stack

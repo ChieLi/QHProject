@@ -17,6 +17,7 @@
 
 @implementation QHSendMessageBar
 
+
 + (instancetype)loadNib
 {
     QHSendMessageBar *sendMessageBar = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil][0];

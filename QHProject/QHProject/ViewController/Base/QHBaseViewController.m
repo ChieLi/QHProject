@@ -7,6 +7,7 @@
 //
 
 #import "QHBaseViewController.h"
+#import "UIViewController+NavigationItem.h"
 
 @interface QHBaseViewController ()<QHConversationDelegate>
 
@@ -37,13 +38,20 @@
 #pragma mark - initial
 - (void)initialViews
 {
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.backButton];
+    self.navigationItem.leftBarButtonItems = [self barItemsWithCustomView:self.backButton];
+    self.navigationController.fd_interactivePopDisabled = NO;
+}
+
+#pragma mark - navigation setting
+- (BOOL)hidesBottomBarWhenPushed
+{
+    return YES;
 }
 
 #pragma mark - event response
 - (void)didClickBackButton:(UIButton *)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - property getter

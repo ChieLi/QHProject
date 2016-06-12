@@ -105,12 +105,7 @@
             return ;
         }
         QHConversationViewController *conversationVC = [[QHConversationViewController alloc] initWithAVConvesation:conversation];
-        QHBaseNavigationController *pushNC = [[QHBaseNavigationController alloc] initWithRootViewController:conversationVC];
-        
-        [self presentViewController:pushNC animated:YES completion:^{
-            QHHomeTabBarController *tabBarController =(QHHomeTabBarController *)[AppDelegate getAppDelegate].window.rootViewController;
-            tabBarController.selectedIndex = 0;
-        }];
+        [self.navigationController pushViewController:conversationVC animated:YES];
         
     }];
 }

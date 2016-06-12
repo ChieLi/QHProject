@@ -7,6 +7,7 @@
 //
 
 #import "QHTableView.h"
+#import "MJRefresh.h"
 
 @implementation QHTableView
 
@@ -34,7 +35,23 @@
 
 - (void)config
 {
+    self.mj_header = [MJRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(tableViewHeaderRefreshBegin:)];
+    self.mj_footer = [MJRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(tableViewFooterRefreshBegin:)];
+}
 
+#pragma mark - event response
+- (void)tableViewHeaderRefreshBegin:(MJRefreshHeader *)headerView
+{
+    if ([self.delegate respondsToSelector:@selector(qhTableViewHeaderViewRefreshBegin:)]) {
+        [self.qhDelegate qhTableViewHeaderViewRefreshBegin:self];
+    }
+}
+
+- (void)tableViewFooterRefreshBegin:(MJRefreshFooter *)footerView
+{
+    if ([self.delegate respondsToSelector:@selector(qhTableViewFooterViewRefreshBegin:)]) {
+        [self.qhDelegate qhTableViewFooterViewRefreshBegin:self];
+    }
 }
 /*
 // Only override drawRect: if you perform custom drawing.

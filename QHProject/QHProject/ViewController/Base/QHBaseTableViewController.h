@@ -9,7 +9,7 @@
 #import "QHBaseViewController.h"
 #import "QHTableView.h"
 
-@interface QHBaseTableViewController : QHBaseViewController <UITableViewDataSource, UITableViewDelegate>
+@interface QHBaseTableViewController : QHBaseViewController <UITableViewDataSource, UITableViewDelegate, QHTableViewDelegate>
 
 @property (nonatomic, strong) QHTableView *tableView;
 
